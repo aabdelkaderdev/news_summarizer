@@ -1,0 +1,1925 @@
+Definition
+
+GET https://newsapi.org/v2/everything?q=Apple&from=2026-03-03&sortBy=popularity&apiKey=API_KEY
+
+Example request
+
+import requests
+
+url = ('https://newsapi.org/v2/everything?'
+       'q=Apple&'
+       'from=2026-03-03&'
+       'sortBy=popularity&'
+       'apiKey=1322bde53c4146b395c4dd4c6e15189f')
+
+response = requests.get(url)
+
+print r.json
+
+Example response
+{
+
+    "status": "ok",
+    "totalResults": 382,
+    -
+    "articles": [
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "Nicholas Sutrich",
+            "title": "I turned my Pixel 10 Pro into the perfect bedside alarm clock",
+            "description": "Turning your Google Pixel into an alarm clock is about more than just setting timers. Here's how I got the most out of these amazing hidden Pixel features.",
+            "url": "https://www.androidcentral.com/phones/google-pixel/i-turned-my-pixel-10-pro-into-the-perfect-bedside-alarm-clock",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/Z2QfjenBbReMv8xVdphZPH-2048-80.jpg",
+            "publishedAt": "2026-03-03T09:00:00Z",
+            "content": "One of my favorite features of the Google Pixel Tablet is its ability to turn into a clock, weather station, Google Photos slideshow, and even a smart home control center while docked on its charging… [+6614 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Jeffgeerling.com"
+            },
+            "author": null,
+            "title": "I built a pint-sized Macintosh",
+            "description": "To kick off MARCHintosh, I built this tiny pint-sized Macintosh with a Raspberry Pi Pico:\nThis is not my own doing—I just assembled the parts to run Matt Evans' Pico Micro Mac firmware on a Raspberry Pi Pico (with an RP2040).\nThe version I built outputs to a …",
+            "url": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
+            "urlToImage": "",
+            "publishedAt": "2026-03-03T07:06:22Z",
+            "content": "To kick off MARCHintosh, I built this tiny pint-sized Macintosh with a Raspberry Pi Pico:\r\nThis is not my own doingI just assembled the parts to run Matt Evans' Pico Micro Mac firmware on a Raspberry… [+4683 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "heise online"
+            },
+            "author": "Andreas Knobloch",
+            "title": "Dienstag: Paramount mit großen Plänen, Copyright-Streit um KI-generierte Kunst",
+            "description": "Konkurrenz für Platzhirsch Netflix + US Supreme Court weist ab + App spürt Smart Glasses auf + Stromsubvention nötig für saubere Industrie + Verwaltung am Limit",
+            "url": "https://www.heise.de/news/Dienstag-Paramount-mit-grossen-Plaenen-Copyright-Streit-um-KI-generierte-Kunst-11196332.html",
+            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/3/7/8/6/8/Wochentage-source-sans-d8be6003f96b9fc5.png",
+            "publishedAt": "2026-03-03T05:15:00Z",
+            "content": "Der US-amerikanische Entertainment-Konzern Paramount Skydance verfolgt mit der Übernahme von Warner Bros. Discovery große Pläne. In einer Investorenkonferenz erklärte Paramount-Chef David Ellison nun… [+3865 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Arin Waichulis",
+            "title": "Security Bite Podcast: RCS finally gets end-to-end encryption, 1Password blowback, more",
+            "description": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform. Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to management and security combines state-of-the-art Apple-specifi…",
+            "url": "https://9to5mac.com/2026/03/02/security-bite-podcast-rcs-finally-gets-end-to-end-encryption-1password-blowback-more/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/01/Security-Bite-Matrix-Hack.png?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2026-03-03T01:23:09Z",
+            "content": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform. Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to man… [+852 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Marcus Mendes",
+            "title": "Apple TV cancels Palm Royale after two seasons",
+            "description": "Deadline reports that Apple won’t be renewing critically acclaimed comedy Palm Royale for a third season. Here are the details.\n\n\n\n more…",
+            "url": "https://9to5mac.com/2026/03/02/apple-tv-cancels-palm-royale-after-two-seasons/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/10/palm-royale-s1-kristen-wiig.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2026-03-03T03:25:54Z",
+            "content": "Deadline reports that Apple wont be renewing critically acclaimed comedy Palm Royale for a third season. Here are the details.\r\nPalm Royale never broke out into the mainstream as other Apple TV comed… [+1487 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Chance Miller",
+            "title": "March Apple event week kicks off with iPhone 17e and M4 iPad Air",
+            "description": "Benjamin and Chance discuss the just-announced iPhone 17e and M4 iPad Air, as Apple begins its week of product launches. As well as bit of speculation about what is to come on Tuesday and Wednesday, the duo also respond to a report about the dysfunctional nat…",
+            "url": "https://9to5mac.com/2026/03/02/happy-hour-580/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/02/9to5mac-happy-hour-lead1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2026-03-03T03:07:13Z",
+            "content": "Benjamin and Chance discuss the just-announced iPhone 17e and M4 iPad Air, as Apple begins its week of product launches. As well as bit of speculation about what is to come on Tuesday and Wednesday, … [+808 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Zac Hall",
+            "title": "Here’s where to download Apple’s new iPhone 17e wallpaper",
+            "description": "iPhone 17e announcement day means a new Apple wallpaper has arrived. Fortunately, you don’t necessarily have to buy the new iPhone 17e if you just want to try Apple’s latest wallpaper on your iPhone.\n\n\n\n more…",
+            "url": "https://9to5mac.com/2026/03/02/heres-where-to-download-apples-new-iphone-17e-wallpaper/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/03/iPhone-17e.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2026-03-03T02:40:34Z",
+            "content": "iPhone 17e announcement day means a new Apple wallpaper has arrived. Fortunately, you dont necessarily have to buy the new iPhone 17e if you just want to try Apples latest wallpaper on your iPhone.\r\n… [+499 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Seth Kurkowski",
+            "title": "9to5Mac Daily: March 2, 2026 – iPhone 17e is here",
+            "description": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players.\n\n\n\nSponsored by BenQ: Check o…",
+            "url": "https://9to5mac.com/2026/03/02/daily-march-2-2026/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2021/12/9to5Mac-Daily-art-lead.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2026-03-03T02:49:52Z",
+            "content": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apples Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca… [+824 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Gizmodo.jp"
+            },
+            "author": "はらいさん",
+            "title": "「iPhone 16e、バッテリー超長もちってホント？」気になっても試さないほうがいいです",
+            "description": "Photo:はらいさん2025年3月27日の記事を編集して再掲載しています。2025年に登場したiPhone16e、ずっと気になっていたのがバッテリーの持ち具合。Apple（アップル）公式ページには最大26時間のビデオ再生に対応と書かれています。でも動画再生を26時間連続で、とかまずしません。ふつうに使ったら、どれくらいもつんでしょう？気になったので「iPhone16eのバッテリー、0%になるまで",
+            "url": "https://www.gizmodo.jp/2026/03/iphone-16e-battery-check-journey-kh8.html",
+            "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2025/03/26/20250314_21094_01.jpg?w=1280&h=630&f=jpg",
+            "publishedAt": "2026-03-03T07:35:00Z",
+            "content": "2025327\r\n2025iPhone 16eApple2626\r\niPhone 16e0%0%\r\n1iPhone 16e\r\niPhone 16e1iPhone 16eeefficiency\r\n6:00 100%\r\niPhone 16eiPhone 15 Pro\r\n6iPhone 16e100%\r\n6:40100%\r\nApple Music30100%\r\nWalletSuica\r\n8:3093%… [+496 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Gizmodo.jp"
+            },
+            "author": "小野寺しんいち",
+            "title": "iPhone 16eに足りない「超広角レンズ」外付けしてみた",
+            "description": "2025年3月17日の記事を編集して再掲載しています。「超広角カメラないの？はい、もう検討の余地なしー」それが、iPhone16eを見て最初に私が思ってしまった感想です。iPhoneお持ちの皆さん、超広角カメラ使ってますか？景色を全体的に写せたり、迫力ある写真を撮れたり、私にとってはなくてはならないレンズです。iPhone16eそんな超広角カメラをなくして登場したiPhone16e、こやつが超広角",
+            "url": "https://www.gizmodo.jp/2026/03/kenko_realpro-clip-lens_review-w5q.html",
+            "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2025/03/14/Gizpicture.002-2.png?w=1280&h=630&f=jpg",
+            "publishedAt": "2026-03-03T08:35:00Z",
+            "content": "2025317\r\niPhone 16e\r\niPhone \r\niPhone 16e\r\niPhone 16e\r\niPhone\r\niPhone 16eREALPRO CLIP LENS iPhone 16e\r\nREALPRO CLIP LENS \r\nREALPRO CLIP LENS \r\niPhone\r\n165iPhone 1616 Pro120\r\niPhone 16 Pro\r\nREALPRO CLI… [+543 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Gizmodo.jp"
+            },
+            "author": "そうこ",
+            "title": "「Galaxy S26」vs「iPhone 17」デザインからAIまで比較してみた",
+            "description": "Image:AdrianoContreras/GizmodoUSSamsung（サムスン）の2026年最初の発表会「GalaxyUnpacked」で発表されたフラッグシップスマートフォンのGalaxyS26シリーズ。年は跨いでいるものの、ライバルとなるのは昨年秋に発表されたAppleのiPhone17シリーズです。OSは異なりますが、お互い自社の顔となるフラッグシップとして切磋琢磨している端末であ",
+            "url": "https://www.gizmodo.jp/2026/03/galaxy-s26-vs-iphone-17-comparison.html",
+            "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2026/02/27/260227s26iphone17.jpg?w=1280&h=630&f=jpg",
+            "publishedAt": "2026-03-03T03:30:00Z",
+            "content": "Samsung2026Galaxy UnpackedGalaxy S26AppleiPhone 17OS\r\nGalaxy S26136400S26+169920S26 Ultra218900iPhone 17129800iPhone 17 Pro179800iPhone 17 Pro Max194800\r\n256GBiPhone 17iPhone 178GB12GBGalaxy S26 Ultr… [+1115 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Yanko Design"
+            },
+            "author": "Sarang Sheth",
+            "title": "iPhone 17e Gets MagSafe but No Dynamic Island or Gemini Apple Intelligence… Is It Worth Buying?",
+            "description": "iPhone 17e Gets MagSafe but No Dynamic Island or Gemini Apple Intelligence… Is It Worth Buying?Apple has a habit of making its budget phones more interesting than they have any right to be. The iPhone 17e packs the same A19...",
+            "url": "https://www.yankodesign.com/2026/03/02/iphone-17e-gets-magsafe-but-no-dynamic-island-or-gemini-apple-intelligence-is-it-worth-buying/",
+            "urlToImage": "https://www.yankodesign.com/images/design_news/2026/03/iphone-17e-gets-magsafe-but-no-dynamic-island-or-gemini-apple-intelligence-is-it-worth-buying/apple_iphone_17e_1.jpg",
+            "publishedAt": "2026-03-03T00:30:36Z",
+            "content": "Apple has a habit of making its budget phones more interesting than they have any right to be. The iPhone 17e packs the same A19 chip found in the standard iPhone 17 into a $599 body, with a 6-core C… [+2781 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Applesfera.com"
+            },
+            "author": "Álvaro García M.",
+            "title": "Así queda Apple Intelligence con la llegada del nuevo iPhone 17e: funciones y compatibilidad",
+            "description": "Con la llegada del flamante iPhone 17e, Apple sigue engordando la lista de dispositivos compatibles con su IA. Una IA a la que llama Apple Intelligence y que, pese a que aún está pendiente de introducir grandes mejoras en Siri, dispone ya desde hace un año de…",
+            "url": "https://www.applesfera.com/iphone/asi-queda-apple-intelligence-llegada-nuevo-iphone-17e-funciones-compatibilidad",
+            "urlToImage": "https://i.blogs.es/3a1532/apple-intelligence/840_560.jpeg",
+            "publishedAt": "2026-03-03T08:00:56Z",
+            "content": "Con la llegada del flamante iPhone 17e, Apple sigue engordando la lista de dispositivos compatibles con su IA. Una IA a la que llama Apple Intelligence y que, pese a que aún está pendiente de introdu… [+5010 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Applesfera.com"
+            },
+            "author": "Guille Lomener",
+            "title": "iOS 26.4 beta 3 ya está aquí. Y hay algo en esta actualización que me empieza a preocupar",
+            "description": "Apple ha lanzado la tercera beta de iOS 26.4 para desarrolladores, una semana después de la beta 2. Hay buenas noticias: los nuevos emoji por fin aparecen en el sistema. Pero lo que realmente preocupa en esta beta 3 es Playlist Playground: la función de creac…",
+            "url": "https://www.applesfera.com/ios/ios-26-4-beta-3-esta-aqui-hay-algo-esta-actualizacion-que-me-empieza-a-preocupar",
+            "urlToImage": "https://i.blogs.es/0a9a5e/beta-3/840_560.jpeg",
+            "publishedAt": "2026-03-03T09:00:56Z",
+            "content": "Apple ha lanzado la tercera beta de iOS 26.4 para desarrolladores, una semana después de la beta 2. Hay buenas noticias: los nuevos emoji por fin aparecen en el sistema. Pero lo que realmente preocup… [+4110 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "MakeUseOf"
+            },
+            "author": "Dan Selcke",
+            "title": "6 massive sci-fi and fantasy shows you need to watch in March",
+            "description": "Between new seasons of For All Mankind, One Piece, Invincible, Outlander, and more, March will be a spectacular month for genre fans.",
+            "url": "https://www.makeuseof.com/6-massive-sci-fi-fantasy-shows-march-2026/",
+            "urlToImage": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2026/01/for_all_mankind_photo_050105.jpg?w=1600&h=900&fit=crop",
+            "publishedAt": "2026-03-03T00:00:16Z",
+            "content": "March is here, and streaming services are readying a bevy of new, high-profile sc-fi and fantasy shows for us all to enjoy. This month is packed with great stuff to watch, whether you're into histori… [+6118 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Golem.de"
+            },
+            "author": "Nils Matthiesen",
+            "title": "Künstliche Intelligenz: Apple lizenziert Gemini für Private Cloud Compute",
+            "description": "Apple lizenziert Googles Gemini-Modelle für das neue Siri, lässt diese aber in der eigenen Private-Cloud-Umgebung laufen. (Siri, Google)",
+            "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fkuenstliche-intelligenz-apple-lizenziert-gemini-fuer-private-cloud-compute-2603-206020.html&referer=https%3A%2F%2Ft.co%2F94542e10e5",
+            "urlToImage": null,
+            "publishedAt": "2026-03-03T07:51:02Z",
+            "content": "Besuchen Sie Golem.de wie gewohnt mit Werbung und Tracking,\r\n indem Sie der Nutzung aller Cookies zustimmen.\r\n Details zum Tracking finden Sie im Privacy Center.\r\nSkript wurde nicht geladen. Informat… [+607 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "BGR"
+            },
+            "author": "staff@bgr.com (Briley Kenney)",
+            "title": "Lava Lamps Can Actually Create Secure File Encryptions - Here's How",
+            "description": "Lava lamps aren't just psychedelic decor. One major internet company uses them to help generate the randomness behind secure encryption keys.",
+            "url": "https://www.bgr.com/2111033/cloudflare-lava-lamps-internet-encryption/",
+            "urlToImage": "https://www.bgr.com/img/gallery/lava-lamps-can-actually-create-secure-file-encryptions-heres-how/l-intro-1772138362.jpg",
+            "publishedAt": "2026-03-03T02:17:00Z",
+            "content": "As far as data encryption goes, you wouldn't expect a bunch of lights to help secure anything certainly not some '70s-style lava lamps. But as it turns out, the exact opposite is true. Cloudflare, th… [+1637 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Habr.com"
+            },
+            "author": "TrexSelectel (Selectel)",
+            "title": "Виджеты Windows: что с ними не так и как Microsoft пытается их исправить",
+            "description": "Виджеты в Windows — один из самых странных элементов пользовательского интерфейса. Они регулярно появляются, исчезают, переизобретаются и вызывают споры. Их позиционируют как быстрый доступ к информации, но на практике они часто воспринимаются как лишний слой…",
+            "url": "https://habr.com/ru/companies/selectel/articles/1003810/#post-content-body",
+            "urlToImage": "https://habrastorage.org/getpro/habr/upload_files/ef5/e1b/007/ef5e1b007caa069809c731e9bab4d76d.jpg",
+            "publishedAt": "2026-03-03T08:00:33Z",
+            "content": "Windows . , , . , , , . , .\r\n , , , ambient computing. , Windows , .\r\nambient computing . .\r\n 1990- , Xerox PARC. : , . , . , , , . « » . , .\r\n: , , . , .\r\nAmbient computing : , , . . : , , . .\r\n . A… [+2130 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Habr.com"
+            },
+            "author": "mirazhx",
+            "title": "Десять лет кошек и мышей между цензорами и интернетом",
+            "description": "10 лет назад OpenVPN считался надёжным инструментом. Сегодня он блокируется за секунды. За это время сменилось пять поколений протоколов — каждый новый рождался как ответ на то, чему научился цензор. Это история гонки вооружений между математикой и политикой.…",
+            "url": "https://habr.com/ru/articles/1005774/#post-content-body",
+            "urlToImage": "https://habrastorage.org/getpro/habr/upload_files/89f/906/8f5/89f9068f53b20325db3ec460246af2e6.jpeg",
+            "publishedAt": "2026-03-03T06:59:00Z",
+            "content": ", , \r\n: \r\n22 2015 GitHub clowwindy . - , - :\r\n\"Two days ago the police came to me and wanted me to stop working on this. Today they asked me to delete all the code from GitHub. I have no choice but t… [+3266 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Habr.com"
+            },
+            "author": "k0mar0v (МТС)",
+            "title": "Ноутбук Sony Vaio PCG-GRX700P: самурай на пенсии",
+            "description": "Пока моя машина была в ремонте, пришлось воспользоваться каршерингом. Гибриды, безусловно, экономичны и практичны, но невероятно скучны. Они не дарят сильных эмоций. Совсем другое дело — старый японский автомобиль вроде Toyota Mark II или Crown (туда же Crest…",
+            "url": "https://habr.com/ru/companies/ru_mts/articles/1005664/#post-content-body",
+            "urlToImage": "https://habrastorage.org/getpro/habr/upload_files/641/465/89c/64146589cd58dbb1825177b2580c7321.jpeg",
+            "publishedAt": "2026-03-03T07:16:47Z",
+            "content": ", . , , , . . Toyota Mark II Crown ( Cresta, Chaser Carina). , , , .\r\n . , , «» , . , . , Compaq, ThinkPad VAIO. , , .\r\n , , , . . , , .\r\nDigital Dream Kids\r\n « , ». : , . , , - . Sony, : 1995 .\r\n (I… [+1626 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Caschys Blog"
+            },
+            "author": "André Westphal",
+            "title": "OnePlus 15T: Offizieller Teaser zum kommenden Premium-Smartphone",
+            "description": "Das neue Premium-Smartphone OnePlus 15T soll noch in diesem Monat in China vorgestellt werden. Inzwischen hat der Hersteller vorab schon erste Informationen und auch Teaser-Bilder veröffentlicht. Diese setzen zunächst den kleinen Rahmen um das Display in Bezu…",
+            "url": "https://stadt-bremerhaven.de/oneplus-15t-offizieller-teaser-zum-kommenden-premium-smartphone/",
+            "urlToImage": "https://stadt-bremerhaven.de/wp-content/uploads/2026/03/OnePlus-15T-Display.jpg",
+            "publishedAt": "2026-03-03T08:30:49Z",
+            "content": "Das neue Premium-Smartphone OnePlus 15T soll noch in diesem Monat in China vorgestellt werden. Inzwischen hat der Hersteller vorab schon erste Informationen und auch Teaser-Bilder veröffentlicht. Die… [+1633 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Touchlab.jp"
+            },
+            "author": "Nakimo",
+            "title": "【価格据え置き】Apple、M4搭載の新しい「iPad Air」を発表〜メモリ1.5倍・Wi-Fi 7対応",
+            "description": "Appleが2026年3月2日、M4チップを搭載した新しい「iPad Air」を発表しました。 11インチと13インチの2サイズ展開はそのままに、チップ性能の向上や接続性の強化が図られています。価格は据え置きで、予約注文 […]©2019 \"Touch Lab - タッチ ラボ\".",
+            "url": "https://touchlab.jp/2026/03/m4_ipad_air_announced/",
+            "urlToImage": "https://touchlab.jp/wp-content/uploads/2026/03/m4_ipadair_released_0.jpg",
+            "publishedAt": "2026-03-03T03:18:08Z",
+            "content": "Appleが2026年3月2日、M4チップを搭載した新しい「iPad Air」を発表しました。\n\n\n\n\n\n\n\n11インチと13インチの2サイズ展開はそのままに、チップ性能の向上や接続性の強化が図られています。価格は据え置きで、予約注文は3月4日(水)から、販売は3月11日(水)から開始予定です。\n\n\n\nM4チップ搭載でメモリは1.5倍に\n\n\n\n新しい「iPad Air」は、チップが「M3 → M… [+2703 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Smartworld.it"
+            },
+            "author": "Vincenzo Ronca",
+            "title": "iOS 26.4 trasforma l'iPhone: arriva l'IA per Apple Music e più sicurezza",
+            "description": "Apple rilascia iOS 26.4 beta 3: novità per Apple Music con funzioni AI, hotspot, RCS cifrati, CarPlay video e sicurezza iPhone.\r\nL'articolo iOS 26.4 trasforma l'iPhone: arriva l'IA per Apple Music e più sicurezza sembra essere il primo su Smartworld.",
+            "url": "https://www.smartworld.it/news/ios-26-4-novita-iphone-apple-music-ia.html",
+            "urlToImage": "https://www.smartworld.it/images/2025/10/09/iphone-17-pro-def-011_1200x675.jpg",
+            "publishedAt": "2026-03-03T03:44:00Z",
+            "content": "Apple ha distribuito iOS 26.4 beta 3 per iPhone, un aggiornamento ancora in fase di test che prepara il terreno ad alcune funzioni piuttosto concrete per uso quotidiano. Non si tratta di una rivoluzi… [+3409 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Deadline"
+            },
+            "author": "Rosy Cordero",
+            "title": "‘Palm Royale’ Concludes Run After Two Seasons At Apple TV",
+            "description": "EXCLUSIVE: The Apple TV series Palm Royale has taken its final bow. The Emmy-nominated dramedy was canceled at the streamer after two seasons. Palm Royale was created by Abe Silva and starred an ensemble cast led by Kristen Wiig, which included Laura Dern, Al…",
+            "url": "http://deadline.com/2026/03/palm-royale-canceled-apple-tv-1236739175/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2026/02/Palm_Royale_Photo_021003.jpg?w=1024",
+            "publishedAt": "2026-03-03T02:49:27Z",
+            "content": "EXCLUSIVE: The Apple TV series Palm Royale has taken its final bow. The Emmy-nominated dramedy was canceled at the streamer after two seasons. \r\nPalm Royale was created by Abe Silva and starred an en… [+2464 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Impress.co.jp"
+            },
+            "author": "高橋 陸",
+            "title": "[iPhone駆け込み寺]アップル「iPhone 17e」発表、iPhone 16eとの違いは？",
+            "description": "アップル（Apple）は2日、「iPhone 17e」を発表した。3月4日23時15分に予約受付を開始し、11日に発売する。本稿では、「iPhone 16e」との違いをまとめた。",
+            "url": "https://k-tai.watch.impress.co.jp/docs/review/iphonetips/2090049.html",
+            "urlToImage": "https://k-tai.watch.impress.co.jp/img/ktw/list/2090/049/00a.jpg",
+            "publishedAt": "2026-03-03T06:39:40Z",
+            "content": "Apple2iPhone 17e34231511iPhone 16e \r\niPhone 17e256GB256GB99800512GB134800 \r\n iPhone 16e128GB99800256GB114800512GB144800 \r\n<table><tr><th></th><th>iPhone 17e</th><th>iPhone 16e</th></tr><tr><td>128GB<… [+2409 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Impress.co.jp"
+            },
+            "author": "劉 尭",
+            "title": "え、もう新型？「iPhone 17e」が3月11日発売、9万9,800円から",
+            "description": "Appleは、9万9,800円からのスマートフォン「iPhone 17e」を3月11日に発売する。予約は3月4日23時15分から。",
+            "url": "https://pc.watch.impress.co.jp/docs/news/2089925.html",
+            "urlToImage": "https://pc.watch.impress.co.jp/img/pcw/list/2089/925/1.jpg",
+            "publishedAt": "2026-03-03T00:45:17Z",
+            "content": "Apple99,800iPhone 17e311342315 \r\n iPhone 17eiPhoneiPhone 16e202521iPhone SE20162202032022 \r\n 13Ceramic Shield 2MagSafeA19AAA \r\n 256GB512GB6.12,532×1,170Super Retina XDROSiOS 26 \r\n 4,800/F1.648MP Fusi… [+352 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Impress.co.jp"
+            },
+            "author": "宇都宮 充",
+            "title": "M4搭載iPad Air登場。メモリは12GBに増量",
+            "description": "Appleは、M4チップを搭載しメモリを増量した新型「iPad Air」を3月11日に発売する。3月4日より予約受付を開始し、価格は11インチモデルが9万8,800円から、13インチモデルが12万8,800円から。",
+            "url": "https://pc.watch.impress.co.jp/docs/news/2089966.html",
+            "urlToImage": "https://pc.watch.impress.co.jp/img/pcw/list/2089/966/01.jpg",
+            "publishedAt": "2026-03-03T02:28:44Z",
+            "content": "AppleM4iPad Air311341198,80013128,800 \r\n iPad AirSoCM3M48CPU9GPU30%23D \r\n 50%12GB120GB/s16Neural EngineAI \r\n N1Wi-Fi 7Bluetooth 6ThreadWi-Fi+Cellular5GC1X50%GPS \r\n Apple IntelligenceApple Pencil(USB-… [+320 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Impress.co.jp"
+            },
+            "author": "劉 尭",
+            "title": "「iPhone 17e」とiPhone 17、そして旧モデルのiPhone 16eとスペック比較",
+            "description": "Appleは、9万9,800円からのスマートフォン「iPhone 17e」を3月11日に発売する。同社のエントリー向けラインナップはこれまで刷新サイクルが長めだったが、今回は約1年とレギュラーモデルと同じ短いスパンとなった。",
+            "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2089924.html",
+            "urlToImage": "https://pc.watch.impress.co.jp/img/pcw/list/2089/924/1.jpg",
+            "publishedAt": "2026-03-03T02:07:51Z",
+            "content": "Apple99,800iPhone 17e3111 \r\n iPhone 17iPhone 16e \r\n A19GPUiPhone 1754iPhone 17GPU \r\n iPhone 16eMagSafeMagSafeiPhone 12iPhone 16eiPhone 17e \r\n iPhone 16eMagSafe7.5WQiiPhone 17e15WiPhone 1725WiPhone 17… [+2100 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Impress.co.jp"
+            },
+            "author": "影山 巧",
+            "title": "【本日みつけたお買い得品】iPad Airが約1万3千円オフ。iPad Proもセールに",
+            "description": "Amazonは3月3日から5日にかけて、新生活セールの先行セールを実施中だ。Apple「11インチiPad Air(M3)」は、Wi-Fiモデルが1万3,143円引きの8万5,657円、Wi-Fi+Cellularモデルが2月21日の価格から1万8,941円引きで10万5,859円にて購入できる。",
+            "url": "https://pc.watch.impress.co.jp/docs/news/todays_sales/2089936.html",
+            "urlToImage": "https://pc.watch.impress.co.jp/img/pcw/list/2089/936/01.jpg",
+            "publishedAt": "2026-03-03T01:32:40Z",
+            "content": "Amazon335Apple11iPad Air(M3)Wi-Fi13,14385,657Wi-Fi+Cellular22118,941105,859 \r\n 11iPad Air(M3)iPad Air202511(2,360×1,640)SoCM38GB128GBOSiPadOSAF1,2001,200Apple IntelligenceAI \r\n USB 3.2 Gen 2 Type-C()… [+275 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Appbank.net"
+            },
+            "author": "AppBank編集部",
+            "title": "Apple『iPhone 17e』発表！　A19搭載・MagSafe対応で99,800円から——3月11日より販売開始",
+            "description": "Appleは3月2日、新型スマートフォン『iPhone 17e』を発表しました。iPhone 17ファミリーのなかでももっともお求めやすいモデルとして位置づけられ、最新世代のA19チップや48MP Fusionカメラ、MagSafe対応な",
+            "url": "https://www.appbank.net/2026/03/03/goods-books/2940658.php",
+            "urlToImage": "https://www.appbank.net/wp-content/uploads/2026/03/20260303_113513_886_01.webp",
+            "publishedAt": "2026-03-03T03:40:00Z",
+            "content": "Apple32iPhone 17eiPhone 17A1948MP FusionMagSafe\r\n334311\r\niPhone 17eIP68630\r\niPhone 17Ceramic Shield 23\r\nOLED6.1Super Retina XDR1,200HDRFace ID1\r\niPhone 17e3A196CPUiPhone 112Apple Intelligence\r\nNeural… [+741 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Appbank.net"
+            },
+            "author": "AppBank編集部",
+            "title": "M4搭載の新しい『iPad Air』が登場！　3月11日より販売開始",
+            "description": "Appleは3月2日、M4チップとより大容量のメモリを搭載した新しいiPad Airを発表しました。価格は据え置きながらパフォーマンスが大幅に向上しており、3月4日（水）より予約注文が開始され、3月11日（水）より販売が開始されます。",
+            "url": "https://www.appbank.net/2026/03/03/iphone-application/2940648.php",
+            "urlToImage": "https://www.appbank.net/wp-content/uploads/2026/03/20260303_113133_994_01.webp",
+            "publishedAt": "2026-03-03T03:50:00Z",
+            "content": "Apple32M4iPad Air34311\r\nAppleM4AIiPadOS 26iPad Air\r\niPad Air8CPU9GPUM4M3iPad Air30M1iPad Air2.3\r\nPixelmator ProFinal Cut Pro2M13D4\r\nM4AIiPad Air12GB50120GB/sAI\r\n16Neural EngineM13GoodnotesOnform: Vid… [+1070 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Appbank.net"
+            },
+            "author": "AppBank編集部",
+            "title": "タッチで変形！　次世代Qi2.2対応「TAXION 3-in-1ワイヤレス充電器」がAmazonで3月3日より販売開始",
+            "description": "株式会社Yao-yorozは3月3日、最新ワイヤレス充電規格「Qi2.2」に対応した『3-in-1ワイヤレス急速25W充電器』をAmazon.co.jpにて販売開始したと発表しました。 　この製品はiPhone・Apple Watch・A",
+            "url": "https://www.appbank.net/2026/03/03/goods-books/2940509.php",
+            "urlToImage": "https://www.appbank.net/wp-content/uploads/2026/03/20260303_102016_730_02.webp",
+            "publishedAt": "2026-03-03T04:15:00Z",
+            "content": "Yao-yoroz33Qi2.23-in-125WAmazon.co.jp\r\niPhoneApple WatchAirPods3-in-1\r\nQi2.225W15WiPhone 16/17\r\n25W35W\r\nMagSafeiPhone90iOS\r\nApple WatchAirPods\r\nAmazon.co.jpYOROZiPhone 1217Apple WatchAirPods1"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Appbank.net"
+            },
+            "author": "AppBank編集部",
+            "title": "iPhone17e対応ケース登場！　ROOT CO.がMagSafe対応リングスタンド搭載モデルなど全6製品を発表",
+            "description": "ROOT株式会社は3月3日、3月2日にApple社より発表された「iPhone17e」に対応するROOT CO.製品のラインナップを発表しました。 　対応製品はすべてiPhone16e/iPhone17eの兼用となっており、2026年2月",
+            "url": "https://www.appbank.net/2026/03/03/goods-books/2940635.php",
+            "urlToImage": "https://www.appbank.net/wp-content/uploads/2026/03/20260303_111304_604_01.webp",
+            "publishedAt": "2026-03-03T07:00:00Z",
+            "content": "ROOT3332AppleiPhone17eROOT CO.\r\niPhone16e/iPhone17e20262MagSafe6\r\n6,60020262MagSafe\r\n5,500\r\n4,400\r\n3,960\r\n2,200\r\n440\r\n—\r\niPhone17eROOT CO.\r\nROOT CO.\r\nMOBILE GEAR BRANDROOT CO."
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Idownloadblog.com"
+            },
+            "author": "Ankur Thakur",
+            "title": "9 reasons to buy the new iPhone 17e",
+            "description": "The new iPhone 17e has more base storage, MagSafe support, and a new color. Here are 9 reasons to help you decide whether to buy it.",
+            "url": "https://www.idownloadblog.com/2026/03/02/iphone-17e-pros/",
+            "urlToImage": "https://media.idownloadblog.com/wp-content/uploads/2026/03/iPhone-17e-in-black-white-and-pink-colors.jpg",
+            "publishedAt": "2026-03-03T07:15:18Z",
+            "content": "Apple announced the newest model of its most affordable iPhone, the iPhone 17e, via a press release on March 2, 2026.\r\nCompared to last years iPhone 16e, the new iPhone 17e has more base storage, sup… [+5753 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Fstoppers"
+            },
+            "author": "Alex Cooke",
+            "title": "Apple Introduces iPhone 17e: A19 Power and 48 MP Camera Starting at $599",
+            "description": "Apple has announced the iPhone 17e, a lower-cost addition to the iPhone 17 lineup that brings the company’s latest A19 processor, a 48 MP main camera, MagSafe, and a 256 GB starting storage tier to a $599 price point. The iPhone 17e will be available for pre-…",
+            "url": "https://fstoppers.com/gear/apple-introduces-iphone-17e-a19-power-and-48-mp-camera-starting-599-900434",
+            "urlToImage": "https://fstoppers.com/s3/files/styles/medium/s3/lead/2026/03/iphone.png?itok=RuegetqS",
+            "publishedAt": "2026-03-03T04:59:29Z",
+            "content": "Apple has announced the iPhone 17e, a lower-cost addition to the iPhone 17 lineup that brings the companys latest A19 processor, a 48 MP main camera, MagSafe, and a 256 GB starting storage tier to a … [+6035 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Techbang.com"
+            },
+            "author": "ycr",
+            "title": "Claude 擠下 ChatGPT 奪下載冠軍，用戶不滿 OpenAI 合作戰爭部引發跳槽潮",
+            "description": "OpenAI 宣布與美國國防部合作後，引發部分用戶質疑 AI 軍事用途與倫理風險，掀起轉用潮，帶動 Anthropic 旗下 Claude 登上美國 App Store 免費榜首。在生成式 AI 競爭持續升溫之際，Anthropic 旗下的 Claude 近日在美國 Apple App Store 下載榜竄升至免費應用程式第一名，超越長期占據高位的 OpenAI ChatGPT，成為美國下載量最高的免費 App。這波排名變動，被外界普遍解讀為與 OpenAI 近期宣布與美國國防部合作有關。\nOpenAI 執行長 …",
+            "url": "https://www.techbang.com/posts/128152-claude-beats-chatgpt-openai-war-dept-backlash",
+            "urlToImage": "https://cdn2.techbang.com/system/excerpt_images/128152/original/6db98ea47730598254ca4f9d2f44a1a1.jpg?1772445035",
+            "publishedAt": "2026-03-03T05:30:00Z",
+            "content": "AI Anthropic Claude Apple App Store OpenAI ChatGPT App OpenAI \r\nOpenAI Sam Altman X AI OpenAI \r\n AI Claude ChatGPT ClaudeCancel ChatGPT Katy Perry X Claude Reddit ChatGPT \r\n Anthropic Dario Amodei AI… [+189 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Techbang.com"
+            },
+            "author": "WL.",
+            "title": "Xiaomi 17 Series 發表，Leica Leitzphone 限量版同步登場",
+            "description": "小米 17 系列不僅硬體全面升級，更深化與徠卡的策略性共創模式，全新 Leica Leitzphone powered by Xiaomi 也同步亮相。小米正式發表新一代 Xiaomi 17 Series，同步帶來 Xiaomi 17、Xiaomi 17 Ultra，以及全新 Leica Leitzphone powered by Xiaomi。此次發表除了硬體規格全面升級，品牌也宣布與徠卡的合作由原本的聯合研發模式，升級為「策略性共創模式」，進一步深化從鏡頭設計到影像體驗的整合。\nXiaomi 17 Ultra…",
+            "url": "https://www.techbang.com/posts/128158-xiaomi-17-ultra-leica-1-inch-200mp",
+            "urlToImage": "https://cdn0.techbang.com/system/excerpt_images/128158/original/e2241e5b50296c8c06d3592a4abc20ec.jpg?1772450100",
+            "publishedAt": "2026-03-03T06:00:00Z",
+            "content": "Xiaomi 17 Series Xiaomi 17Xiaomi 17 Ultra Leica Leitzphone powered by Xiaomi\r\nXiaomi 17 Ultra \r\nXiaomi 17 Series Ultra 8.29mm 218.4g Ultra Xiaomi 17 8.06mm191g\r\nXiaomi 3.0 IP68 Ultra Xiaomi 17 \r\nUltr… [+547 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Basicthinking.de"
+            },
+            "author": "Maria Gramsch",
+            "title": "Spracheingabe beim Mac: Nachrichten, Notizen und Dokumente erstellen",
+            "description": "Der Beitrag Spracheingabe beim Mac: Nachrichten, Notizen und Dokumente erstellen erschien zuerst beim Online-Magazin BASIC thinking. Über unseren Newsletter UPDATE startest du jeden Morgen bestens informiert in den Tag.\nMit der Spracheingabe kannst du auf dei…",
+            "url": "https://www.basicthinking.de/blog/2026/03/03/spracheingabe-mac-notizen/",
+            "urlToImage": "https://www.basicthinking.de/blog/wp-content/uploads/2026/02/spracheingabe-mac.jpg",
+            "publishedAt": "2026-03-03T04:45:53Z",
+            "content": "Mit der Spracheingabe kannst du auf deinem Mac Texte schneller und intuitiver verfassen ganz ohne deine Tastatur. Das System verschriftlicht dein gesprochenes Wort und erleichtert so den Arbeitsallta… [+3204 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Ascii.jp"
+            },
+            "author": "ASCII",
+            "title": "【詳細表でわかる】iPhone 17eとiPhone 16e/17/16/SEをスペック比較！ 予想以上の進化の17e",
+            "description": "iPhone 17e登場！ 予想以上の進化に加え、新色のソフトピンクも追加で“買い”な1台はほぼ確定！ そこでiPhone 16eやiPhone 16／17、歴代SEとをスペック表で比較し、変更点や進化点を詳しくチェックした。",
+            "url": "https://weekly.ascii.jp/elem/000/004/377/4377986/",
+            "urlToImage": "https://ascii.jp/img/2026/03/03/4428201/l/10d264183452dfcf.jpg",
+            "publishedAt": "2026-03-03T02:45:00Z",
+            "content": "iPhoneiPhone 17eCPUA19256GBiPhone 16e998001\r\niPhone 16eiPhone 1617iPhone SE\r\niPhone 17e\r\n256GBiPhone 14\r\niPhone 17256GBiPhone 16e128GB99800\r\n256GB99800\r\niPhone 16eiPhone 14Face ID6.1ELiPhone 17iPhone… [+5907 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Slate.fr"
+            },
+            "author": "Lucas Déprez-Rose",
+            "title": "Devinez qui fait son retour chez la gen Z? L'iPod, évidemment",
+            "description": "Abandonné par Apple en 2022, le baladeur mythique connaît un regain d'intérêt inattendu, porté par une génération en quête de simplicité et de calme numérique.",
+            "url": "https://www.slate.fr/tech-internet/ipod-retour-generation-z-jeune-deconnexion-apple-baladeur-numerique-iphone-connexion-distraction-notification-cerveau-attention",
+            "urlToImage": "https://cdn.slate.fr/uploads/store/story_272307/original_272307.png",
+            "publishedAt": "2026-03-03T07:25:05Z",
+            "content": "L'iPod, produit phare d'Apple et énorme succès mondial (450 millions de ventes) avait été définitivement abandonné en 2022 après vingt-et-un ans d'existence. Le baladeur numérique n'était donc plus c… [+2349 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "il-sole-24-ore",
+                "name": "Il Sole 24 Ore"
+            },
+            "author": null,
+            "title": "OpenAI: «Modifiche all’accordo opportunistico e approssimativo col Pentagono»",
+            "description": "Tweet del ceo Sam Altman dopo che la sua azienda aveva approfittato del passo indietro di Anthropic nei rapporti col Dipartimento di Guerra Usa",
+            "url": "https://www.ilsole24ore.com/art/openai-modifiche-all-accordo-opportunistico-e-approssimativo-col-pentagono-AI5SzwjB",
+            "urlToImage": "https://i2.res.24o.it/images2010/S24/Documenti/2026/03/04/Immagini/Ritagli/2026-02-19T075251Z_840998235_RC2VOJAAAIKB_RTRMADP_5_INDIA-AI-U45727622743Yqf-1440x752@IlSole24Ore-Web.JPG?r=1170x507",
+            "publishedAt": "2026-03-03T08:07:00Z",
+            "content": "Ascolta la versione audio dell'articolo\r\nLamministratore delegato di OpenAI, Sam Altman, ha affermato che la fretta della società di stringere un accordo con il Dipartimento della Difesa, a seguito d… [+1873 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Livedoor.jp"
+            },
+            "author": "news23vip",
+            "title": "iPhone17eｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!",
+            "description": "1 名前：名無しさん＠おーぷん[] 投稿日：26/03/03(火) 07:35:38 ID:vqn9\n2025年2月28日に発売された「iPhone 16e」に続く、\n2代目のeシリーズで、2025年9月発表の「iPhone 17」シリーズと同じチップセットを搭載しつつ、カメラなどを削減し安価なモデルに仕上がっている。...",
+            "url": "http://blog.livedoor.jp/news23vip/archives/6233769.html",
+            "urlToImage": "https://livedoor.blogimg.jp/news23vip/imgs/3/6/369c3490-s.jpg",
+            "publishedAt": "2026-03-03T01:30:34Z",
+            "content": "1 [] 26/03/03() 07:35:38 ID:vqn92025228iPhone 16e2e20259iPhone 17\r\n342315311\r\niPhone 17e256GB99800iPhone 17e512GB134800\r\nhttps://news.yahoo.co.jp/articles/115bc022bd12f24d1e2ca0d9273b2e9cd7b0e5c2\r\n2 … [+960 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "techradar",
+                "name": "TechRadar"
+            },
+            "author": "lance.ulanoff@futurenet.com (Lance Ulanoff) , Lance Ulanoff",
+            "title": "iPhone 17e looks like a good deal, but the Google Pixel 10a might still have it beat",
+            "description": "Apple's new iPhone 17e is an exciting new budget iPhone option, but how does it compare to Google's new, flat, and cheap Pixel 10a?",
+            "url": "https://www.techradar.com/phones/iphone/iphone-17e-looks-like-a-good-deal-but-the-google-pixel-10a-might-still-have-it-beat",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/48htG3qGh3q4X2rrZ8pjB4-2000-80.jpg",
+            "publishedAt": "2026-03-03T00:45:00Z",
+            "content": "As the price of top-tier flagship smartphones floats around $1,200, it's worth pondering a good smartphone that splits the difference between features and price, delivering good-enough (and sometimes… [+3596 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "techradar",
+                "name": "TechRadar"
+            },
+            "author": "Max Langridge",
+            "title": "Need new earbuds? 20% off the Samsung Galaxy Buds4 Pro is a fantastic preorder deal — but you'll need to be quick",
+            "description": "Cheaper than the AirPods Pro 3 even at full price, Samsung’s newest buds are a fantastic buy at launch for AU$319, with shipping starting March 11.",
+            "url": "https://www.techradar.com/audio/earbuds-airpods/need-new-earbuds-20-percent-off-the-samsung-galaxy-buds4-pro-is-a-fantastic-preorder-deal-but-youll-need-to-be-quick",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/fcppWJxLnGxdBtfjrPsDdT-2000-80.jpg",
+            "publishedAt": "2026-03-03T00:45:53Z",
+            "content": "The past few days have been huge for product reveals. Not only has Apple recently announced the iPhone 17e, but Samsung unveiled its full S26 smartphone lineup just last week. While the new phones ar… [+2405 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Actualidadiphone.com"
+            },
+            "author": "Actualidad iPhone",
+            "title": "Netflix dejará de funcionar en móviles antiguos desde el 1 de marzo",
+            "description": "Netflix dejará de funcionar en varios móviles y Smart TV antiguos desde el 1 de marzo. Consulta si tu Android, iPhone o televisor seguirá siendo compatible.",
+            "url": "https://www.actualidadiphone.com/netflix-dejara-de-funcionar-en-moviles-antiguos-desde-el-1-de-marzo/",
+            "urlToImage": "https://www.actualidadiphone.com/wp-content/uploads/2026/03/Netflix-dejara-de-funcionar-en-celulares-iPhone-y-Android-desde-el-1-de-marzo-1.jpg",
+            "publishedAt": "2026-03-03T04:43:03Z",
+            "content": "A partir del 1 de marzo de 2026, muchos usuarios se van a llevar una sorpresa poco agradable al intentar abrir Netflix en su móvil de siempre: la aplicación dejará de funcionar en una larga lista de … [+9093 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "The Gadgeteer"
+            },
+            "author": "Rei Padla",
+            "title": "7 Things Apple Quietly Fixed With the iPhone 17e",
+            "description": "Apple just announced the iPhone 17e, and on the surface it looks like a familiar play. A $599 price tag, a 6.1-inch display, and the same spot in the lineup that the iPhone 16e held a year ago. But there’s something more interesting going on here than a routi…",
+            "url": "https://the-gadgeteer.com/2026/03/02/7-things-apple-quietly-fixed-with-the-iphone-17e/",
+            "urlToImage": "https://the-gadgeteer.com/wp-content/uploads/2026/03/7-Things-Apple-Quietly-Fixed-With-the-iPhone-17e.jpg",
+            "publishedAt": "2026-03-03T02:00:04Z",
+            "content": "If you buy something from a link in this article, we may earn a commission. Learn more\r\nApple just announced the iPhone 17e, and on the surface it looks like a familiar play. A $599 price tag, a 6.1-… [+8096 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "The Gadgeteer"
+            },
+            "author": "Rei Padla",
+            "title": "Tecno at MWC 2026: CAMON 50, POVA 8, and more",
+            "description": "NEWS – Tecno arrived at MWC Barcelona 2026 with a spread that’s hard to ignore. Under the theme “Pioneering the Connection of Intelligence,” the company unpacked its CAMON 50 series, the POVA 8 lineup, a connected AI ecosystem stretching across multiple devic…",
+            "url": "https://the-gadgeteer.com/2026/03/02/tecno-at-mwc-2026-camon-50-pova-8-and-more/",
+            "urlToImage": "https://the-gadgeteer.com/wp-content/uploads/2026/03/POVA-Ecosystem.jpg",
+            "publishedAt": "2026-03-03T00:00:37Z",
+            "content": "If you buy something from a link in this article, we may earn a commission. Learn more\r\nNEWS Tecno arrived at MWC Barcelona 2026 with a spread thats hard to ignore. Under the theme Pioneering the Con… [+5581 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "3dnews.ru"
+            },
+            "author": null,
+            "title": "ByteDance выпустит в 2026 году AR-гарнитуру Pico Project Swan с micro-OLED дисплеями нового поколения",
+            "description": "Компания Pico («дочка» ByteDance) раскрыла подробности о своей гарнитуре дополненной реальности с кодовым названием Project Swan, которая выйдет позже в этом году. Источник изображений: uploadvr.com",
+            "url": "https://3dnews.ru/1137687/bytedancevipustit-v-2026-godu-argarnituru-pico-project-swan-s-microoled-displeyami-novogo-pokoleniya",
+            "urlToImage": "https://3dnews.ru/assets/external/illustrations/2026/03/03/1137687/2026-03-03_11-14-32.jpg",
+            "publishedAt": "2026-03-03T08:57:00Z",
+            "content": "Pico («» ByteDance) Project Swan, .\r\n : uploadvr.com\r\n, micro-OLED- 4000 (PPI) .\r\nPico , , Snapdragon XR2 Gen 2, Pico 4 Ultra Meta Quest 3. , Snapdragon XR2 Gen 3 Qualcomm, .\r\n, micro-OLED « » 40 (PP… [+400 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "3dnews.ru"
+            },
+            "author": null,
+            "title": "В действительности OpenAI уступила Пентагону в вопросах применения ИИ для слежки и в военных целях",
+            "description": "OpenAI заключила с Пентагоном соглашение об использовании разработанных компанией систем искусственного интеллекта, сменив Anthropic, у которой возникли серьёзные сомнения в моральной стороне такого сотрудничества. В ответ на обеспокоенность общественности гл…",
+            "url": "https://3dnews.ru/1137691/v-deystvitelnosti-openai-ustupila-pentagonu-v-voprosah-primeneniya-ii-dlya-slegki-i-v-voennih-tselyah",
+            "urlToImage": "https://3dnews.ru/assets/external/illustrations/2026/03/03/1137691/openai_1.jpg",
+            "publishedAt": "2026-03-03T09:04:00Z",
+            "content": "OpenAI , Anthropic, . OpenAI (Sam Altman) , , , The Verge.\r\n: Mariia Shalabaieva / unsplash.com\r\n« — , . , , », — . , , , OpenAI . , , OpenAI — « ».\r\n , , , ; OpenAI , . , « », . OpenAI, , . « , », —… [+573 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Sspai.com"
+            },
+            "author": "少数派编辑部",
+            "title": "派早报：Apple 发布 iPhone 17e 与搭载 M4 芯片的 iPad Air 等新品",
+            "description": "少数派的近期动态少数派年度征文来了，古法手搓大战人工智能，你会是哪条赛道的大赢家？参与一下重磅新片《寻源南疆》上线，我们在雪山上拍了一部「公路电影」。看看精彩画面将设计装进耳朵：少数派×飞傲联名CD机 ...查看全文",
+            "url": "https://sspai.com/post/106766",
+            "urlToImage": "https://rssfile.sspai.com/2026/3/3/article/16e4761e-23c9-a002-d43f-bafc8558846c.png?imageMogr2/auto-orient/format/webp/ignore-error/1",
+            "publishedAt": "2026-03-03T00:00:00Z",
+            "content": "MWC 2026 \r\nYoga Book Pro 3D 3D 3D PureSight Pro Tandem OLED AI 2D 3D RGB Intel Core Ultra 7 RTX 5070 GPU\r\nLegion Go Fold 7.7 11.6 POLED \r\nLegion Go Fold Intel Core Ultra 7 258V 48Whr 32GB RAM\r\nYoga 9… [+738 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Eonline.com"
+            },
+            "author": "Sabba Rahbar",
+            "title": "Pink Reveals Why She and Her Family Left Hollywood for New York City",
+            "description": "Pink is raising a glass to the Big Apple. \nAfter all, the “Get the Party Started” singer and her family—including husband of 20 years Carey Hart and kids Willow, 14, and Jameson, 9—are officially...",
+            "url": "https://www.eonline.com/news/1429219/why-pink-family-moved-from-hollywood-to-new-york",
+            "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/20260302/767c2982-b9a2-44cd-9714-bc5152e7dc66_1772501220.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+            "publishedAt": "2026-03-03T01:33:26Z",
+            "content": "While it's been a minute since the Desperate Housewives star lived on Wisteria Lane, she's since found a new address IRL.\r\n\"I had my whole adult life here,\" Eva told Marie Claire in November 2024 abo… [+1269 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Futura"
+            },
+            "author": "Stanislas SAMUEL, Rédacteur web",
+            "title": "CyberGhost : protection Wi-Fi public sur 7 appareils, le bon plan famille pour 2026",
+            "description": "Pourquoi payer plusieurs abonnements quand un seul suffit ? Avec CyberGhost VPN, vous pouvez protéger jusqu’à 7 appareils avec un seul compte. En ce moment, son prix est réduit à 2,19 € par mois pour l’abonnement de 2 ans.",
+            "url": "https://www.futura-sciences.com/conso/bons-plans/guides-vpn-cyberghost-protection-wi-fi-public-7-appareils-bon-plan-famille-2026-9343/",
+            "urlToImage": "https://cdn8.futura-sciences.com/a1920/images/Clic2Shop/cyberghost%20protection%20Wi-Fi%20public.jpg",
+            "publishedAt": "2026-03-03T06:30:00Z",
+            "content": "Que ce soit dans un café, à la gare ou à l'hôtel, nous avons tous le réflexe de nous connecter aux réseaux Wi-Fi gratuits pour économiser nos données mobiles ou travailler à distance. Pourtant, sur c… [+3270 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Everything-everywhere.com"
+            },
+            "author": "Gary Arndt",
+            "title": "The History of Tobacco",
+            "description": "Podcast Transcript When Christopher Columbus arrived in the Americas, members of his crew observed the native people they met offering them dried leaves as gifts. They had no clue why, but they soon found out that native people smoked the burning leaves, and …",
+            "url": "https://everything-everywhere.com/the-history-of-tobacco/",
+            "urlToImage": "https://photos.smugmug.com/Other/n-hRFP2/Podcast-Images/i-rW4mKxG/0/NZT4sQbMWvN2QHpqqg7jFZb3d9xsXCdJbsdpjCvRR/L/2066epart-L.jpg",
+            "publishedAt": "2026-03-03T06:09:08Z",
+            "content": "Subscribe Apple | Spotify | Amazon |iHeart Radio | Castbox | Podcast Republic | RSS | Patreon | Discord | Facebook | IMDB\r\nWhen Christopher Columbus arrived in the Americas, members of his crew obser… [+14450 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Tinhte.vn"
+            },
+            "author": "no-reply@tinhte.vn (bk9sw), bk9sw",
+            "title": "Samsung loại bỏ loạt công cụ quan trọng trong recovery menu, hết đường hạ cấp OS",
+            "description": "Samsung đang loại bỏ một số công cụ quan trọng trong recovery menu khiến người dùng lẫn giới dev khó lòng can thiệp vào máy. Hạ cấp OS, flash lại OS, root hay cài custom ROM sẽ trở thành dĩ vãng sau bản cập nhật bảo mật tháng 2 2026.",
+            "url": "https://tinhte.vn/thread/samsung-loai-bo-loat-cong-cu-quan-trong-trong-recovery-menu-het-duong-ha-cap-os.4101848/",
+            "urlToImage": "https://photo2.tinhte.vn/data/attachment-files/2026/03/8970212_cover-samsungbootloader.jpg",
+            "publishedAt": "2026-03-03T00:49:37Z",
+            "content": "Theo GalaxyClub, nhng công c trên s b loi b trong bn vá bo mt tháng 2 2026, bn build mi nht hin ti trên Galaxy S26 Ultra thì chúng vn còn. GalaxyHub cho bit các công c này có th b loi b vnh vin bi tr… [+754 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Theregister.com"
+            },
+            "author": "Jessica Lyons",
+            "title": "Phish of the day: Microsoft OAuth scams abuse redirects for malware delivery",
+            "description": "Crims hope for payday from malicious payloads rather than stealing access tokens Microsoft has warned organizations about ongoing OAuth abuse scams that use phishing emails and URL redirects to infect victims' machines with malware and take over their devices…",
+            "url": "https://www.theregister.com/2026/03/03/microsoft_oauth_scams/",
+            "urlToImage": "https://regmedia.co.uk/2017/01/20/scam.jpg",
+            "publishedAt": "2026-03-03T00:33:15Z",
+            "content": "Microsoft has warned organizations about ongoing OAuth abuse scams that use phishing emails and URL redirects to infect victims' machines with malware and take over their devices.\r\nThe phishing exped… [+4054 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Spidersweb.pl"
+            },
+            "author": "Albert Żurek",
+            "title": "Oferta iPhone'ów to bajzel. Apple miał być prosty, staje się Androidem",
+            "description": "Obecna oferta iPhone’ów to kompletny bałagan. Ogromne zróżnicowanie i stosunkowo niewielkie różnice w cenie między modelami wcale nie ułatwiają w wyborze smartfona.",
+            "url": "https://spidersweb.pl/2026/03/iphone-oferta-balagan-ogromny-wybor-problem.html",
+            "urlToImage": "https://cdn-sw.spidersweb.pl/2026/03/iphone-balagan-oferta-wybor-ogromny.jpg",
+            "publishedAt": "2026-03-03T05:34:00Z",
+            "content": "Dekad temu Apple wydawa dwa, maksymalnie trzy smartfony na rok, a kolejne generacje szybko zastpoway poprzednie. Dzi nie do, e wydaje si mnóstwo urzdze, to jeszcze pozostawia si w sprzeday starsze ur… [+2653 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Cool3c.com"
+            },
+            "author": "Mash Yang",
+            "title": "蘋果推出 M4 版 iPad Air 強化效能、記憶體與 iPadOS 26 體驗",
+            "description": "Mash Yang發佈蘋果推出 M4 版 iPad Air 強化效能、記憶體與 iPadOS 26 體驗，最新資訊於2026-03-03 13:48：蘋果發表搭載 M4 晶片的全新 iPad Air，效能與 AI 運算力躍進。配備 12GB 記憶體與自研通訊晶片，結合 iPadOS 新功能，使其成為...#(246729)",
+            "url": "https://www.cool3c.com/article/246729",
+            "urlToImage": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/03/0596eb3d-7bb4-4267-aff0-e05739105570.jpg",
+            "publishedAt": "2026-03-03T05:47:00Z",
+            "content": "M4 iPad Air iPadOS 26 \r\niPhone 17eM4iPad Air50%12GBN1C1X1113599799 (1990026900)\r\niPad AirProAIPro\r\nM412GBAI\r\niPad Air8CPU9GPUM4M330%M12.39GPU (Mesh Shading) (Ray Tracing)3D3A\r\nApple IntelligenceAIiPa… [+416 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Cool3c.com"
+            },
+            "author": "Mash Yang",
+            "title": "蘋果發表 iPhone 17e 搭載 A19 與 MagSafe 599 美元起",
+            "description": "Mash Yang發佈蘋果發表 iPhone 17e 搭載 A19 與 MagSafe 599 美元起，最新資訊於2026-03-03 13:44：9 晶片、Apple Intelligence 與 MagSafe。配備 4800 萬畫素相機，儲存空間升級至 256GB 起，售價 599 美元起，兼...#(246726)",
+            "url": "https://www.cool3c.com/article/246726",
+            "urlToImage": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/03/cc2a6f6f-9262-418a-920f-f0bd7676176d.jpg",
+            "publishedAt": "2026-03-03T05:42:00Z",
+            "content": "iPhone 17e A19 MagSafe Apple Intelligence 256 GB 599 \r\niPhone 17iPhone 17eA19MagSafeApple IntelligenceiPhone 17e256GB599 (21900)\r\nA19C1X\r\niPhone 17iPhone 17e3nmA19\r\nA196CPU4GPU (Neural Accelerators)3… [+419 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Elespanol.com"
+            },
+            "author": "César Rebolledo",
+            "title": "FREE FIRE MAX | Códigos de hoy martes 3 de marzo de 2026 - Recompensas gratis",
+            "description": "<!--cache-->Estos son todos los códigos gratis de Garena Free Fire MAX que podrás canjear hoy, martes 3 de marzo de 2026. Consigue recompensas como skins, diamantes y mucho más.<!--aa--->El éxito para móviles Android e iOS, Garena Free Fire MAX, ha recibido n…",
+            "url": "https://vandal.elespanol.com/noticia/1350787831/free-fire-max-codigos-de-hoy-martes-3-de-marzo-de-2026-recompensas-gratis/",
+            "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/3/3-2026/3/2026339192410_2.jpg",
+            "publishedAt": "2026-03-03T08:20:00Z",
+            "content": "El éxito para móviles Android e iOS, Garena Free Fire MAX, ha recibido nuevos códigos diarios para hoy martes 3 de marzo de 2026.\r\nLos jugadores pueden canjear estos códigos para recibir recompensas … [+2872 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Macitynet.it"
+            },
+            "author": "Fabrizio Frattini",
+            "title": "Oggi altri annunci Apple, ecco cosa potrebbe arrivare",
+            "description": "Dopo iPad Air M4 e iPhone 17e, la settimana Apple continua: mancano ancora MacBook Pro M5, MacBook Air M5 e iPad A18, ma l’attenzione resta sul possibile MacBook low cost. Oggi o domani?\n- su macitynet.it Oggi altri annunci Apple, ecco cosa potrebbe arrivare",
+            "url": "https://www.macitynet.it/?p=1459067",
+            "urlToImage": "https://www.macitynet.it/wp-content/uploads/2026/03/3-marzo-apple-special-experience.jpg",
+            "publishedAt": "2026-03-03T06:59:04Z",
+            "content": "Con lannuncio di ieri lunedì 2 marzo, con iPad Air M4 e iPhone 17e, la settimana Apple non è certo finita. La giornata di oggi, martedì 3 marzo rappresenta il secondo capitolo di una sequenza di aggi… [+3362 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Macitynet.it"
+            },
+            "author": "Pubblicità",
+            "title": "Offerte Amazon 3 marzo: Apple, Logitech, Sony, Epson, LEGO, Samsung, Philips, Tapo, Google",
+            "description": "Webcam, auricolari, scanner, zaini, caricatori, televisori, lampadine Smart, smartphone e non solo: le migliori offerte Amazon di oggi 3 marzo \n- su macitynet.it Offerte Amazon 3 marzo: Apple, Logitech, Sony, Epson, LEGO, Samsung, Philips, Tapo, Google",
+            "url": "https://www.macitynet.it/offerte-amazon-3-marzo-2026/",
+            "urlToImage": "https://www.macitynet.it/wp-content/uploads/2018/04/amazonlista2.jpg",
+            "publishedAt": "2026-03-03T07:59:24Z",
+            "content": "Quelle che trovate elencate in questa pagina sono le offerte Amazon valide nel momento in cui scriviamo.\r\nSono ancora valide queste offerte:\r\nInoltre:\r\n<ol><li>Lista nozze online, tanti vantaggi per … [+3901 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Hwupgrade.it"
+            },
+            "author": null,
+            "title": "iPhone 16e scende a 545 su Amazon: chip A18 e 48MP mai visti a questo prezzo",
+            "description": "iPhone 16e 128GB passa da 729 a 545 e diventa la porta d'ingresso più conveniente allecosistema Apple. Chip A18, display Super Retina XDR da 6,1\" e fotocamera Fusion da 48MP a un prezzo che cambia gli equilibri",
+            "url": "https://www.hwupgrade.it/news/apple/iphone-16e-scende-a-545-su-amazon-chip-a18-e-48mp-mai-visti-a-questo-prezzo_150794.html",
+            "urlToImage": "https://www.hwupgrade.it/i/n/iPhone16e_720.jpg",
+            "publishedAt": "2026-03-03T08:48:45Z",
+            "content": "Chi stava aspettando il momento giusto per entrare nell'ecosistema Apple senza superare i 600 euro ora ha un'opportunità molto valida: iPhone 16e 128GB è disponibile su Amazon a 545 invece di 729, … [+2032 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Smhn.info"
+            },
+            "author": "會原",
+            "title": "iPhone 17e正式発表！MagSafe対応・256GBスタートで599ドル据え置き",
+            "description": "前作の不満をつぶして599ドル据え置き。Appleは2026年3月2日、廉価ラインの最新モデル「iPhone 17e」を正式に発表しました。前世代iPhone 16eで不満の多かったMagSafe非対応を解消しつつ、価格は599ドルからに据え置きます。予約受付は3月4日から、発売...smhn.infoにアクセスすると、全文を読むことができます。",
+            "url": "https://smhn.info/202603-iphone-17e-magsafe-launch",
+            "urlToImage": "https://smhn.info/wp-content/uploads/2026/03/s-Apple-iPhone-17e-family-lineup-260302_big.jpg.large_2x.png",
+            "publishedAt": "2026-03-03T06:13:11Z",
+            "content": "599\r\nApple202632iPhone 17eiPhone 16eMagSafe5993431170\r\niPhone 17eMagSafeQi2iPhone 16eQi7.5W15W\r\n3nmA196CPUiPhone 112AppleC1XiPhone 16eC12iPhone 16 Pro30%Apple\r\nC1XApple2AppleiPhone\r\n4800Fusion1224004… [+723 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Smhn.info"
+            },
+            "author": "會原",
+            "title": "価格60万円！？アップル、「18インチiPad」開発中か。ただし発売見送りの可能性も",
+            "description": "早く出せよ！Bloombergのマーク・ガーマン氏がニュースレターで、Appleが大型の折りたたみiPadを開発していると伝えました。ただし最終的に製品として市場に出ない可能性もあるのだとか。AppleInsiderが伝えています。開発中の端末は18型級の折りたたみOLEDディス...smhn.infoにアクセスすると、全文を読むことができます。",
+            "url": "https://smhn.info/202603-apple-foldable-ipad-delayed",
+            "urlToImage": "https://smhn.info/wp-content/uploads/2026/03/2026-03-03-roiko-foldable-ipad-600000yen-v2-1k1.png",
+            "publishedAt": "2026-03-03T01:28:02Z",
+            "content": "BloombergAppleiPadAppleInsider\r\n18OLEDSamsung Display13MacBook AirPC\r\nGalaxy Z Fold\r\n1.6kgiPad Pro30003900AppleiPad\r\nApple20282029Mark Gurman\r\nOSmacOSiPadOSMaciPad\r\nAppleiPhoneApple"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Macotakara.jp"
+            },
+            "author": "danbo",
+            "title": "PFU、Appleシリコン搭載Macにネイティブ対応した「ScanSnap Home 3.6.0」を提供開始",
+            "description": "ScanSnap Home 3.6.0\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- テキスト -->\n\nPFUが、Appleシリコン搭載Macにネイティブ対応した「ScanSnap Home for Mac Ver.3.6.0」をリリースしています。\n\n3.5.0 → 3.6.0 の変更点\n機能追加\n・ScanSnap iX25000の「ネットワークフォルダに保存」のプロファイルに、文字列をテキスト認識して検索可能なPDFに変換する設定を追加しまし…",
+            "url": "https://www.macotakara.jp/news/entry-50603.html",
+            "urlToImage": "https://www.macotakara.jp/archives/001/202603/59f661fd991b8627.jpg",
+            "publishedAt": "2026-03-03T07:08:29Z",
+            "content": "PFUAppleMacScanSnap Home for Mac Ver.3.6.0\r\n3.5.0 3.6.0 \r\nScanSnap iX25000PDFScanSnap ix2500ScanSnapix2400\r\nAppleMacScanSnap ix2500ScanSnap ix2400ScanSnap ix2500500mmABBYY FineReader for ScanSnapWord… [+53 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Androidsis.com"
+            },
+            "author": "Joaquin Romero",
+            "title": "Cómo detectar apps que usan tu ubicación sin permiso",
+            "description": "Descubre cómo saber qué apps rastrean tu ubicación sin permiso y protege tu privacidad en Android y iPhone con pasos claros y efectivos.",
+            "url": "https://www.androidsis.com/como-detectar-apps-que-usan-tu-ubicacion-sin-permiso/",
+            "urlToImage": "https://www.androidsis.com/wp-content/uploads/2025/04/localizador-gps-tracker-scaled.jpg",
+            "publishedAt": "2026-03-03T01:22:11Z",
+            "content": "Hoy en día llevamos el móvil pegado a la mano y, sin darnos cuenta, dejamos un rastro constante de dónde estamos, con quién vamos y qué hacemos. Muchas veces creemos que lo tenemos todo controlado po… [+21192 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Expansion.com"
+            },
+            "author": "Amaia Ormaetxea, Raquel Moreno",
+            "title": "La Primera de Expansión sobre la guerra en Irán, Santander, BBVA, Petróleo, Guardiola y Blackstone",
+            "description": "Irán golpea a los dueños de Iberia, Cortefiel, Telefónica y El Corte Inglés. Además de energéticas como Iberdrola y Moeve, los países ricos del golfo Pérsico tienen intereses accionariales en otros grandes emblemas españoles. Leer",
+            "url": "https://www.expansion.com/podcasts/la-primera-de-expansion/2026/03/03/69a67aa5468aeb350b8b459c.html",
+            "urlToImage": "https://e01-phantom-expansion.uecdn.es/0c275d27a86a7d83458af96cbd0d7cea/f/webp/assets/multimedia/imagenes/2026/03/03/17725168071923.jpg",
+            "publishedAt": "2026-03-03T06:28:15Z",
+            "content": "Irán golpea a los dueños de Iberia, Cortefiel, Telefónica y El Corte Inglés. Además de energéticas como Iberdrola y Moeve, los países ricos del golfo Pérsico tienen intereses accionariales en otros g… [+667 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Giga"
+            },
+            "author": "Marvin Basse",
+            "title": "Amazon verkauft Anker-Schnellladegerät für Laptop, Handy und Co. zum Spottpreis",
+            "description": "Aktuell ist bei Amazon ein Ladegerät von Anker zu einem besonders attraktiven Preis erhältlich. Es überzeugt mit hoher Ladeleistung trotz kompakter Bauweise. Wir haben uns den Deal genauer angeschaut und die wichtigsten Details für euch zusammengestellt.",
+            "url": "https://www.giga.de/tech/amazon-verkauft-anker-schnellladegeraet-fuer-laptop-handy-und-co-zum-spottpreis--01KCGYKQFN858RFYD0PATZCK88",
+            "urlToImage": "https://static.giga.de/a9/14/41/1abeeeaed284351737cb812e3b_cmUgMTkyMCAxMDgwA2E0MWVhMjM3YzEz.png",
+            "publishedAt": "2026-03-03T08:59:28Z",
+            "content": "Aktuell ist bei Amazon ein Ladegerät von Anker zu einem besonders attraktiven Preis erhältlich. Es überzeugt mit hoher Ladeleistung trotz kompakter Bauweise. Wir haben uns den Deal genauer angeschaut… [+2358 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "TVLine"
+            },
+            "author": "staff@tvline.com (Dave Nemetz)",
+            "title": "Palm Royale Canceled At Apple TV After Two Seasons",
+            "description": "The party's over for Palm Royale: Apple TV has canceled the '60s-set socialite dramedy starring Kristen Wiig after two seasons.",
+            "url": "https://www.tvline.com/2114226/palm-royale-canceled-apple-tv-kristen-wiig-season-3/",
+            "urlToImage": "https://www.tvline.com/img/gallery/palm-royale-canceled-at-apple-tv-after-two-seasons/l-intro-1772508107.jpg",
+            "publishedAt": "2026-03-03T03:26:02Z",
+            "content": "The party is over for \"Palm Royale\": Apple TV has canceled the '60s-set socialite dramedy starring Kristen Wiig after two seasons, Deadline reports. (TVLine has reached out to Apple TV for confirmati… [+865 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "iphone-ticker.de › iPhone-News seit 2007"
+            },
+            "author": "Nicolas",
+            "title": "Zubehör für iPhone und Apple Watch in Apples neue Frühlingsfarben",
+            "description": "Apple hat sein Zubehörsortiment um iPhone-Hüllen, Apple-Watch-Armbänder und die sogenannte Crossbody Strap in neuen Farbvarianten ergänzt. Die Produkte sind ab sofort im Apple Online Store verfügbar und betreffen vor allem die iPhone-17-Familie sowie die aktu…",
+            "url": "https://www.iphone-ticker.de/zubehoer-fuer-iphone-und-apple-watch-in-apples-neue-fruehlingsfarben-273894/",
+            "urlToImage": "https://images.iphone-ticker.de/wp-content/uploads/2026/03/apple-farben-2026-feature.jpg",
+            "publishedAt": "2026-03-03T07:33:15Z",
+            "content": "Apple hat sein Zubehörsortiment um iPhone-Hüllen, Apple-Watch-Armbänder und die sogenannte Crossbody Strap in neuen Farbvarianten ergänzt. Die Produkte sind ab sofort im Apple Online Store verfügbar … [+2097 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "iphone-ticker.de › iPhone-News seit 2007"
+            },
+            "author": "Nicolas",
+            "title": "Vavideo: Mediatheken-Suchmaschine jetzt als App verfügbar",
+            "description": "Die Mediathek-Suchmaschine Vavideo, die wir bereits 2013 als Browser-Alternative zu MediathekWebView vorgestellt haben, steht seit wenigen Tagen auch als eigenständige App bereit. Direktlinks zu Filmen und Serien Während sich das Angebot bislang vor allem an …",
+            "url": "https://www.iphone-ticker.de/vavideo-mediatheken-suchmaschine-jetzt-als-app-verfuegbar-273882/",
+            "urlToImage": "https://images.iphone-ticker.de/wp-content/uploads/2026/03/vavideo-feature.jpg",
+            "publishedAt": "2026-03-03T06:26:09Z",
+            "content": "Die Mediathek-Suchmaschine Vavideo, die wir bereits 2013 als Browser-Alternative zu MediathekWebView vorgestellt haben, steht seit wenigen Tagen auch als eigenständige App bereit.\r\nDirektlinks zu Fil… [+1830 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Bringatrailer.com"
+            },
+            "author": "bringatrailer",
+            "title": "Factory Five Racing GTM",
+            "description": "This Factory Five GTM was assembled under prior ownership between 2006 and 2009 and was acquired by the seller on BaT in October 2024. Power is provided by a 5.7-liter LS6 V8 paired with a Porsche G50 five-speed manual transaxle, and the bodywork is finished …",
+            "url": "https://bringatrailer.com/listing/2006-factory-five-racing-gtm-5/",
+            "urlToImage": "https://bringatrailer.com/wp-content/uploads/2026/01/2006_factory-five-racing_gtm_BaT_FactoryFiveRacingGTM-2-56707-scaled.jpg",
+            "publishedAt": "2026-03-03T02:20:53Z",
+            "content": "This Factory Five GTM was assembled under prior ownership between 2006 and 2009 and was acquired by the seller on BaT in October 2024. Power is provided by a 5.7-liter LS6 V8 paired with a Porsche G5… [+2954 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Bringatrailer.com"
+            },
+            "author": "bringatrailer",
+            "title": "2016 Porsche Panamera Turbo S Exclusive Series",
+            "description": "This 2016 Porsche Panamera Turbo S is #73 of 100 Exclusive Series examples produced, all of which were hand-painted in Jet Black Metallic and graduated Chestnut Brown over Agatha Chestnut Brown leather upholstery. Power comes from a twin-turbocharged 4.8-lite…",
+            "url": "https://bringatrailer.com/listing/2016-porsche-panamera-turbo-s-2/",
+            "urlToImage": "https://bringatrailer.com/wp-content/uploads/2025/12/2016_porsche_panamera-turbo-s_2016-porsche-panamera-turbo-s-exclusive-009-10392.jpg",
+            "publishedAt": "2026-03-03T02:18:38Z",
+            "content": "This 2016 Porsche Panamera Turbo S is #73 of 100 Exclusive Series examples produced, all of which were hand-painted in Jet Black Metallic and graduated Chestnut Brown over Agatha Chestnut Brown leath… [+3954 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Bringatrailer.com"
+            },
+            "author": "bringatrailer",
+            "title": "2022 Ferrari 296 GTB Assetto Fiorano",
+            "description": "This 2022 Ferrari 296 GTB was ordered with ~$199k in options, some of which included a carbon-fiber diffuser, carbon-fiber bucket seats, a Surround View camera system, a Hi-Fi sound system, and the Assetto Fiorano Package, which added carbon-fiber front corne…",
+            "url": "https://bringatrailer.com/listing/2022-ferrari-296-gtb-9/",
+            "urlToImage": "https://bringatrailer.com/wp-content/uploads/2026/02/2022_ferrari_296-gtb_ferrari296gtb-49-20587.jpg",
+            "publishedAt": "2026-03-03T00:50:04Z",
+            "content": "This 2022 Ferrari 296 GTB was ordered with ~$199k in options, some of which included a carbon-fiber diffuser, carbon-fiber bucket seats, a Surround View camera system, a Hi-Fi sound system, and the A… [+4233 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Ilsoftware.it"
+            },
+            "author": "Riccardo Palermo",
+            "title": "iPhone 17e e Pixel 10a: storage, display e AI a confronto",
+            "description": "Analisi dettagliata di iPhone 17e e Pixel 10a: prezzi, storage, prestazioni A19 e funzioni per scegliere il migliore.",
+            "url": "https://www.ilsoftware.it/iphone-17e-e-pixel-10a-storage-display-e-ai-a-confronto/",
+            "urlToImage": "https://cdn.ilsoftware.it/CdCPfvSvS-oVsmuF-s0lMOx2RoE=/2160x1168/filters:format(webp)/https://www.ilsoftware.it/app/uploads/2025/01/2-4.jpg",
+            "publishedAt": "2026-03-03T08:30:51Z",
+            "content": "Nel mondo degli smartphone di fascia media, la scelta tra iPhone 17e e Pixel 10a non si limita più al confronto tra specifiche tecniche o al semplice prezzo di listino.\r\nSi tratta di due dispositivi … [+3769 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Natalie.mu"
+            },
+            "author": "音楽ナタリー",
+            "title": "ミセス大森元貴「キリングッドエール」出荷数5000万本突破に驚き、「GOOD DAY」中に1500本が売れている",
+            "description": "キリンビール「キリングッドエール」の発表会が本日3月3日に東京都内で開催され、ブランドリーダーを務める大森元貴（Vo, G）が所属し、CMソング「GOOD DAY」を提供したMrs. GREEN APPLE、そして大森と同じくブランドリーダーの綾瀬はるか、浜辺美波、鈴木亮平が登壇した。",
+            "url": "https://natalie.mu/music/news/662372",
+            "urlToImage": "https://ogre.natalie.mu/media/news/music/2026/0303/DSC06549.jpg?impolicy=twitter_card_face_crop",
+            "publishedAt": "2026-03-03T06:23:00Z",
+            "content": "33\r\nVo, GCMGOOD DAY\r\nMrs. GREEN APPLE\r\n32025102025122.2130202615000\r\n5,000 CMGOOD DAYJAM'SMrs. GREEN APPLESNSMCSNS\r\nGGOOD DAY1KeyGOOD DAY\r\nCM16!?CM\r\nGOOD DAY1500\r\n350001616GOOD DAY11500742\r\nCM465000\r… [+15 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Zoe Hussain",
+            "title": "Luigi Mangione musical immortalizing accused CEO killer to premiere on NYC stage",
+            "description": "The twisted \"satirical\" comedy provides a \"bold, campy and unafraid\" take on the accused assassin's life in lockdown while on trial for the muder of the dad of two.",
+            "url": "https://nypost.com/2026/03/02/us-news/luigi-mangione-musical-set-to-premiere-on-nyc-stage/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/03/newspress-collage-t43gfix73-1772509437466.jpg?quality=75&strip=all&1772491492&w=1200",
+            "publishedAt": "2026-03-03T03:44:59Z",
+            "content": "A ghoulish musical comedy immortalizing the alleged UnitedHealthcare CEO gunman, Luigi Mangione,will premiere in New York City — the real-life setting of the shocking assassination — this summer. \r\n“… [+3551 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Begeek.fr"
+            },
+            "author": "Morgan Fromentin",
+            "title": "Apple préparerait un MacBook tactile, mais il pourrait décevoir les attentes des utilisateurs",
+            "description": "Apple préparerait l’arrivée d’un MacBook doté d’un écran tactile, selon de récentes rumeurs. Ce nouvel appareil suscite toutefois des interrogations quant à ses fonctionnalités et pourrait décevoir certains utilisateurs en quête de réelles innovations.",
+            "url": "https://www.begeek.fr/apple-preparerait-un-macbook-tactile-mais-il-pourrait-decevoir-les-attentes-des-utilisateurs-428966",
+            "urlToImage": "https://www.begeek.fr/app/uploads/2025/09/Gros-plan-du-logo-Apple-devant-une-publicite-Samsung-lumineuse.jpeg",
+            "publishedAt": "2026-03-03T08:00:02Z",
+            "content": "Apple préparerait larrivée dun MacBook doté dun écran tactile, selon de récentes rumeurs. Ce nouvel appareil suscite toutefois des interrogations quant à ses fonctionnalités et pourrait décevoir cert… [+2777 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Begeek.fr"
+            },
+            "author": "Jordan Servan",
+            "title": "Samsung Galaxy S26 : les batteries innovantes, ce n’est pas pour tout de suite",
+            "description": "Le Galaxy S26 de Samsung conserve la même technologie de batterie que les modèles précédents, sans amélioration notable cette année. Cependant, l’entreprise poursuit le développement des batteries au silicium-carbone, qui devraient apporter des avancées à l’a…",
+            "url": "https://www.begeek.fr/samsung-galaxy-s26-les-batteries-innovantes-ce-nest-pas-pour-tout-de-suite-428976",
+            "urlToImage": "https://www.begeek.fr/app/uploads/2025/11/Samsung-Galaxy-S26.jpeg",
+            "publishedAt": "2026-03-03T07:00:59Z",
+            "content": "Le Galaxy S26 de Samsung conserve la même technologie de batterie que les modèles précédents, sans amélioration notable cette année. Cependant, lentreprise poursuit le développement des batteries au … [+3242 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Fashionsnap.com"
+            },
+            "author": null,
+            "title": "Appleが「iPhone 17e」を発表　MagSafe対応、ソフトピンクが新登場",
+            "description": "アップル（Apple）が、新型スマートフォン「iPhone 17e」を発表した。本体はブラック、ホワイト、そして新色のソフトピンクの計3色をラインナップ。MagSafeおよびQi2規格の高速ワイヤレス充電にも対応する。iPhone 17eの本体は、上質なマット仕上げと、強くて軽い航空宇宙産業レベルのアルミニウムデザインを採用。IP68等級の防沫・耐水・...",
+            "url": "https://www.fashionsnap.com/article/2026-03-03/iphone-17e/",
+            "urlToImage": "https://fashionsnap-assets.com/asset/format=auto,width=1280,height=670,gravity=auto,fit=pad/article/images/2026/03/apple_iphone17e_20260303_001-d19ccc9a-8ac5-4aa4-b282-e686f3d2ec8b.jpg",
+            "publishedAt": "2026-03-03T01:23:00Z",
+            "content": "iPhone 17eIP686.1Super Retina XDRiPhone 17Ceramic Shield 23Apple\r\nA19AppleC1XiPhone 16eC12iPhone 16 Pro3048MP4K2\r\nUSB-C3050MagSafe\r\nMagSafe\r\nImage by: Apple\r\nFace IDOSiOS 26Apple Intelligence\r\n703411… [+70 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Iphon.fr"
+            },
+            "author": "Jason Filankembo",
+            "title": "iPhone 17e : bonne surprise, il supporte cet accessoire de l’iPhone 16e",
+            "description": "Vous n'avez pas forcément besoin de repasser à la caisse.",
+            "url": "https://www.iphon.fr/post/iphone-17e-bonne-surprise-supporte-accessoire-iphone-16e",
+            "urlToImage": "https://www.iphon.fr/app/uploads/2026/03/iPhone-17e-1-1600x900.jpg",
+            "publishedAt": "2026-03-03T07:23:41Z",
+            "content": "Apple a lancé son mois de mars de fort belle manière en dévoilant deux nouveaux produits. L’iPad Air M4 est à même de combler les artistes avec son processeur puissant et son Neural Engine 16 curs. L… [+1653 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Mohan K Ramanujam",
+            "title": "2026 CRF1100L Africa Twin Adventure Sports ES colour update for Malaysia, priced at RM99,888",
+            "description": "In two new colours for the Malaysia market, the 2026 CRF1100L Africa Twin Adventure Sports ES is priced at RM99,888 excluding road tax, insurance and registration. This is a price drop for the Africa Twin in the Malaysia, previously sold at RM119,388 in 2024.…",
+            "url": "https://paultan.org/2026/03/03/2026-crf1100l-africa-twin-adventure-sports-es-colour-update-for-malaysia-priced-at-rm99888/",
+            "urlToImage": "https://paultan.org/image/2026/03/2026-Honda-CRF1100L-Africa-Twin-Adventure-Sports-ES-3-e1772522452683-1200x807.jpg",
+            "publishedAt": "2026-03-03T07:21:55Z",
+            "content": "In two new colours for the Malaysia market, the 2026 CRF1100L Africa Twin Adventure Sports ES is priced at RM99,888 excluding road tax, insurance and registration. This is a price drop for the Africa… [+3793 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Izwaashura Sadali",
+            "title": "Nissan Serena e-Power C28 2026 kini di M’sia – 1.4L petrol, motor 163 PS/315 Nm; dari RM155k-RM180k",
+            "description": "Selepas dipertontonkan pada Disember 2025, hari ini Nissan Serena e-Power C28 2026 akhirnya dilancarkan untuk pasaran Malaysia. Barisan MPV hibrid ini ditawarkan dengan lima varian iaitu Serena X yang berharga bermula RM154,800, X Plus (dari RM159,800), Highw…",
+            "url": "https://paultan.org/2026/03/03/nissan-serena-e-power-c28-2026-kini-di-msia-1-4l-petrol-motor-163-ps-315-nm-dari-rm155k-rm180k/",
+            "urlToImage": "https://paultan.org/image/2026/01/2026-Nissan-Serena-e-Power-Preview-Malaysia-Ext-5-BM-1200x800.jpg",
+            "publishedAt": "2026-03-03T03:42:18Z",
+            "content": "Selepas dipertontonkan pada Disember 2025, hari ini Nissan Serena e-Power C28 2026 akhirnya dilancarkan untuk pasaran Malaysia. Barisan MPV hibrid ini ditawarkan dengan lima varian iaitu Serena X yan… [+8107 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Mohd Farid Awaludin",
+            "title": "Honda CR-V 2026 pasaran Malaysia dilancarkan – varian asas kini hibrid e:HEV E, bermula RM178k",
+            "description": "Honda Malaysia hari ini memperkenalkan versi kemaskini untuk CR-V generasi ke-enam untuk pasaran tempatan, yang bukan sahaja menampilkan beberapa perubahan perincian, malah barisan variannya juga telah dirombak. Bagi model 2026 ini, CR-V paling asas di Malays…",
+            "url": "https://paultan.org/2026/03/03/honda-cr-v-2026-pasaran-malaysia-dilancarkan-varian-asas-kini-hibrid-ehev-e-bermula-rm178k/",
+            "urlToImage": "https://paultan.org/image/2026/03/Honda-CR-V-2_BM-1200x588.jpg",
+            "publishedAt": "2026-03-03T07:13:57Z",
+            "content": "Honda Malaysia hari ini memperkenalkan versi kemaskini untuk CR-V generasi ke-enam untuk pasaran tempatan, yang bukan sahaja menampilkan beberapa perubahan perincian, malah barisan variannya juga tel… [+2967 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Anthony Lim",
+            "title": "2026 Honda CR-V in Malaysia – update introduces new e:HEV E hybrid variant, additional kit, from RM178k",
+            "description": "Honda Malaysia has introduced a 2026 update for the sixth-generation CR-V, revising the range from four at its point of introduction here back in December 2023 to three. The previous baseline turbocharged S has been […]\nThe post 2026 Honda CR-V in Malaysia – …",
+            "url": "https://paultan.org/2026/03/03/2026-honda-cr-v-in-malaysia-update-introduces-new-ehev-e-hybrid-variant-additional-kit-from-rm178k/",
+            "urlToImage": "https://paultan.org/image/2026/03/Honda-CR-V-2-1200x588.jpg",
+            "publishedAt": "2026-03-03T06:19:55Z",
+            "content": "Honda Malaysia has introduced a 2026 update for the sixth-generation CR-V, revising the range from four at its point of introduction here back in December 2023 to three. The previous baseline turboch… [+2720 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Jonathan Lee",
+            "title": "2026 Toyota Corolla Cross Hybrid GR Sport in Malaysia – gallery of updated sporty variant, RM149k",
+            "description": "The updated Toyota Corolla Cross Hybrid GR Sport was introduced earlier this month, sporting a few minor visual updates – first seen in Taiwan in late 2025 – to keep the sporty variant fresh in […]\nThe post 2026 Toyota Corolla Cross Hybrid GR Sport in Malaysi…",
+            "url": "https://paultan.org/2026/03/03/2026-toyota-corolla-cross-hybrid-gr-sport-in-malaysia-gallery-of-updated-sporty-variant-rm149k/",
+            "urlToImage": "https://paultan.org/image/2026/03/2026-Toyota-Corolla-Cross-GR-Sport-Hybrid-Malaysia-Ext-1-1200x800.jpg",
+            "publishedAt": "2026-03-03T02:30:39Z",
+            "content": "The updated Toyota Corolla Cross Hybrid GR Sport was introduced earlier this month, sporting a few minor visual updates first seen in Taiwan in late 2025 to keep the sporty variant fresh in its secon… [+3664 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Jonathan Lee",
+            "title": "2026 Mercedes-Benz GLA200, GLA250 Nightfall Edition in Malaysia – both AMG Line, kit upgrades, fr RM259k",
+            "description": "The H247 Mercedes-Benz GLA has been around for some time now, but with its electric successor seemingly still at least a year away from being launched here, Mercedes-Benz Malaysia (MBM) has seen fit to update […]\nThe post 2026 Mercedes-Benz GLA200, GLA250 Nig…",
+            "url": "https://paultan.org/2026/03/03/2026-mercedes-benz-gla200-gla250-nightfall-edition-in-malaysia-both-amg-line-kit-upgrades-fr-rm259k/",
+            "urlToImage": "https://paultan.org/image/2026/03/2026-Mercedes-Benz-GLA200-Nightfall-Edition-1-e1772522719699-1200x751.jpg",
+            "publishedAt": "2026-03-03T07:57:47Z",
+            "content": "The H247 Mercedes-Benz GLA has been around for some time now, but with its electric successor seemingly still at least a year away from being launched here, Mercedes-Benz Malaysia (MBM) has seen fit … [+3420 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Mohd Farid Awaludin",
+            "title": "GALERI: Toyota Corolla Cross HEV GR Sport 2026 di Malaysia – harga sama RM149k, kemaskini kecil",
+            "description": "Kita di Malaysia telahpun menerima versi facelift untuk Toyota Corolla Cross GR Sport pada penghujung tahun 2024 dan dijual dalam pasaran sebagai model 2025. Namun pada awal bulan lalu, UMW Toyota memperkenalkan satu lagi versi kemaskini untuk SUV berkenaan –…",
+            "url": "https://paultan.org/2026/03/03/galeri-toyota-corolla-cross-hev-gr-sport-2026-di-malaysia-harga-sama-rm149k-kemaskini-kecil/",
+            "urlToImage": "https://paultan.org/image/2026/03/2026-Toyota-Corolla-Cross-GR-Sport-Hybrid-Malaysia-Ext-1_BM-1200x800.jpg",
+            "publishedAt": "2026-03-03T05:05:16Z",
+            "content": "Kita di Malaysia telahpun menerima versi facelift untuk Toyota Corolla Cross GR Sport pada penghujung tahun 2024 dan dijual dalam pasaran sebagai model 2025. Namun pada awal bulan lalu, UMW Toyota me… [+4511 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Mick Chan",
+            "title": "2026 Nissan Serena e-Power launched in Malaysia – 1.4L petrol, 163 PS/315 Nm motor; 5 variants fr RM155k",
+            "description": "The sixth-generation Nissan Serena has now finally made its official launch in Malaysia, following its preview last December, and now Edaran Tan Chong Motor (ETCM) has officially launched the MPV in five variants; prices are on-the-road, […]\nThe post 2026 Nis…",
+            "url": "https://paultan.org/2026/03/03/2026-nissan-serena-e-power-launched-in-malaysia-1-4l-petrol-163-ps-315-nm-motor-5-variants-fr-rm155k/",
+            "urlToImage": "https://paultan.org/image/2025/12/2026-Nissan-Serena-e-Power-Preview-Malaysia-Ext-34-1200x800.jpg",
+            "publishedAt": "2026-03-03T03:39:35Z",
+            "content": "The sixth-generation Nissan Serena has now finally made its official launch in Malaysia, following its preview last December, and now Edaran Tan Chong Motor (ETCM) has officially launched the MPV in … [+6635 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Www.nzz.ch"
+            },
+            "author": "Nadine Landert (nla)",
+            "title": "PODCAST «NZZ AKZENT» - Vom selbsternannten Friedensstifter zum Kriegsherrn: Warum Trump das hohe Risiko in Iran eingeht",
+            "description": "Mit dem Krieg gegen Iran lässt sich US-Präsident Trump auf ein riskantes Abenteuer ein. Warum pokert Trump so hoch?",
+            "url": "https://www.nzz.ch/podcast/vom-selbsternannten-friedensstifter-zum-kriegsherrn-warum-trump-das-hohe-risiko-in-iran-eingeht-ld.1927242",
+            "urlToImage": "https://img.nzz.ch/2026/03/02/4bade191-eede-40ea-be44-89eca371c0e7.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=3000,1687,x0,y656&wmark=nzz",
+            "publishedAt": "2026-03-03T04:30:00Z",
+            "content": "Mit dem Krieg gegen Iran lässt sich US-Präsident Trump auf ein riskantes Abenteuer ein. Warum pokert Trump so hoch?\r\nKommentieren\r\nZusammenfassung\r\nMerken\r\nKrieg gegen Iran: Warum Trump hoch pokert\r\n… [+1414 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Www.nzz.ch"
+            },
+            "author": "Marie-Astrid Langer (lma)",
+            "title": "Die Fehde zwischen Anthropic und dem Pentagon erschüttert das Silicon Valley",
+            "description": "Dass Amerikas Behörden nun nicht mehr die führende KI des Landes nutzen können, wird vielfach kritisiert. Recherchen zeigen nun, dass es in dem Streit zwischen Anthropic und Washington offenbar vor allem um persönliche Befindlichkeiten ging.",
+            "url": "https://www.nzz.ch/technologie/die-fehde-zwischen-anthropic-und-dem-pentagon-erschuettert-das-silicon-valley-ld.1927352",
+            "urlToImage": "https://img.nzz.ch/2026/03/03/4221aee2-ced0-416c-a997-fcaaf7a5e700.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=5000,2812,x0,y262&wmark=nzz",
+            "publishedAt": "2026-03-03T05:49:23Z",
+            "content": "Dass Amerikas Behörden nun nicht mehr die führende KI des Landes nutzen können, wird vielfach kritisiert. Recherchen zeigen, dass es in dem Streit zwischen Anthropic und Washington offenbar vor allem… [+7171 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "ifun.de › Apple-News seit 2001"
+            },
+            "author": "Nicolas",
+            "title": "Cloud-Engpass bei Apple: Google soll bei Siri unterstützen",
+            "description": "Apple bereitet sich offenbar auf deutlich steigende Rechenanforderungen rund um eine neue Version seiner Sprachassistenz Siri vor. Nach einem Medienbericht von The Information hat das Unternehmen Google gebeten zu prüfen, ob Server in Googles Rechenzentren fü…",
+            "url": "https://www.ifun.de/cloud-engpass-bei-apple-google-soll-bei-siri-unterstuetzen-275433/",
+            "urlToImage": "https://images.ifun.de/wp-content/uploads/2025/09/siri-anfrage-tippen.jpg",
+            "publishedAt": "2026-03-03T05:48:15Z",
+            "content": "Apple bereitet sich offenbar auf deutlich steigende Rechenanforderungen rund um eine neue Version seiner Sprachassistenz Siri vor. Nach einem Medienbericht von The Information hat das Unternehmen Goo… [+2153 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Technews.tw"
+            },
+            "author": "TechNews 編輯台",
+            "title": "Siri 靠 Gemini 翻新，蘋果砸 10 億美元向 Google 借力 AI 雲端",
+            "description": "蘋果公司（Apple）正在與 Google 進一步合作，計劃在其未來的 Siri 版本中使用 Google 的 Gemini 人工智慧模型，並要求 Google 設置伺服器以支援這項升級。根據《The Information》報導，這一舉措標誌著蘋果在基礎設施策略上的重大轉變，因為它準備在今年推出升...",
+            "url": "https://technews.tw/2026/03/03/apple-might-use-google-servers-to-store-data-for-its-upgraded-ai-siri/",
+            "urlToImage": "https://img.technews.tw/wp-content/uploads/2025/12/12121947/omid-armin-AGRtDoZlpYw-unsplash.jpg",
+            "publishedAt": "2026-03-03T03:20:22Z",
+            "content": "© 2013-2026 TechNews Inc. All rights reserved. | | | |"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "heise online"
+            },
+            "author": "Christoph Dernbach",
+            "title": "heise+ | Vom KI-Pionier zum Schlusslicht: Warum Apple Intelligence da steht, wo es steht",
+            "description": "Apple hat bislang Probleme, beim KI-Wettrennen mit der Konkurrenz Schritt zu halten. Dabei hat der Techpionier bereits 1987 eine spektakuläre Vision vorgelegt.",
+            "url": "https://www.heise.de/hintergrund/Vom-KI-Pionier-zum-Schlusslicht-Warum-Apple-Intelligence-da-steht-wo-es-steht-11186699.html",
+            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/3/2/9/2/9/titel_2601tre_apple_ki_entwicklung-0b0cb4b4cb9dbc31.png",
+            "publishedAt": "2026-03-03T07:00:00Z",
+            "content": "Inhaltsverzeichnis\r\nDas Time-Magazin hat unlängst die Architekten der künstlichen Intelligenz aus dem Silicon Valley zu den Persönlichkeiten des Jahres gekürt. Für Apple ist die Coverstory aber nur e… [+1471 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Ixbt.com"
+            },
+            "author": "jin@ixbt.com (Jin)",
+            "title": "Рамка меньше, чем у iPhone 17 Pro, и батарея на 7500 мАч. OnePlus 15T сравнили с флагманом Apple",
+            "description": "Президент OnePlus China Ли Цзе опубликовал первое реальное фото OnePlus 15T, сравнив его с iPhone 17 Pro. Новинка (слева на снимке) получила ультратонкую рамку по всему периметру. По словам топ-менеджера, ширина составляет около 1,xx мм — меньше, чем 1,44 мм …",
+            "url": "https://www.ixbt.com/news/2026/03/03/iphone-17-pro-7500-oneplus-15t-apple.html",
+            "urlToImage": "https://www.ixbt.com/img/n1/news/2026/2/2/OnePlus-15T-IPhone-17-Pro-1024x8_large.jpg",
+            "publishedAt": "2026-03-03T05:17:00Z",
+            "content": "OnePlus China OnePlus 15T, iPhone 17 Pro.\r\n ( )    . -, 1,xx — , 1,44 . .\r\n . 6,32- OLED- 1,5K 165 , .  32 .\r\n 200- Samsung ISOCELL HP5, 50- Sony IMX906 Samsung ISOCELL JN5. — Snapdragon 8 Elite Gen … [+23 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Ixbt.com"
+            },
+            "author": "jin@ixbt.com (Jin)",
+            "title": "В России стартовали предзаказы на iPhone 17e и iPad Air 2026. Названы цены",
+            "description": "«М.Видео» объявила о старте предзаказов не только на новый iPhone 17e, но и на новый iPad Air с однокристальной системой M4. Версия iPhone 17e на 256 ГБ стоит 65 тыс. рублей, а на 512 ГБ — 85 тыс. рублей. Новый iPad Air с диагональю 11 дюймов и памятью 128 ГБ…",
+            "url": "https://www.ixbt.com/news/2026/03/03/iphone-17e-ipad-air-2026.html",
+            "urlToImage": "https://www.ixbt.com/img/n1/news/2026/2/2/gsmarena_002%202_large_large.jpg",
+            "publishedAt": "2026-03-03T08:07:00Z",
+            "content": "«.» iPhone 17e,   iPad Air M4.\r\n iPhone 17e 256 65 . , 512 — 85 . .  iPad Air 11 128 73 . , 13 256 — 110 . .   0-0-24 .\r\n iPad Air 30% 2,3 M1 8- CPU 9- GPU mesh shading . 12 , — 120 /.\r\n 11 13 : «», … [+94 chars]"
+        }
+    ]
+
+}
+
+
+Definition
+
+GET https://newsapi.org/v2/top-headlines?country=us&apiKey=API_KEY
+
+Example request
+
+import requests
+url = ('https://newsapi.org/v2/top-headlines?'
+       'country=us&'
+       'apiKey=1322bde53c4146b395c4dd4c6e15189f')
+response = requests.get(url)
+print response.json()
+
+Example response
+{
+
+    "status": "ok",
+    "totalResults": 33,
+    -
+    "articles": [
+        -
+        {
+            -
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Tucker  Reals",
+            "title": "Live Updates: U.S. death toll in Iran war rises to 6 as Trump says campaign could last 5 weeks - CBS News",
+            "description": "The U.S. military said Monday that the number of Americans killed during the ongoing conflict with Iran now stands at six. Follow live updates on Day 3 of the war.",
+            "url": "https://www.cbsnews.com/live-updates/iran-us-war-day-3-american-deaths-israel-gulf-allies-hit-missile-strikes/",
+            "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/02/d0cad758-3509-4d8a-afcb-049d595ed533/thumbnail/1200x630/f5c48ec1dfd26a566011537410f10cf4/gettyimages-2263890257.jpg",
+            "publishedAt": "2026-03-03T08:10:00Z",
+            "content": "The head of the United Nations's nuclear watchdog agency, the IAEA, said Monday that his agency had \"no indication\" that any of Iran's nuclear installations had been damaged by the ongoing Israeli-U.… [+1766 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Pia Singh",
+            "title": "Stock futures tumble as traders monitor latest with U.S.-Iran conflict: Live updates - CNBC",
+            "description": "Tuesday marked the fourth day of the conflict with Iran after joint U.S.-Israel military strikes killed Supreme Leader Ayatollah Ali Khamenei over the weekend.",
+            "url": "https://www.cnbc.com/2026/03/02/stock-market-today-live-updates.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/108272172-17724745312026-03-02t180000z_1118056607_rc2dwjadvrvl_rtrmadp_0_usa-stocks.jpeg?v=1772474616&w=1920&h=1080",
+            "publishedAt": "2026-03-03T07:44:00Z",
+            "content": "S&amp;P 500 futures moved lower Tuesday morning as traders watched rising geopolitical tensions amid the conflict between the U.S. and Iran.\r\nS&amp;P 500 futures slipped 0.9%, while Nasdaq 100 future… [+2391 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Leila Gharagozlou, Jessie Yeung, Helen Regan, Ross Adkin, Jennifer Hansler, Brad Lendon, Rhea Mogul, Hilary Whiteman, Nic Anderson, Hanna Park, Hanna Ziady, Aditi Sangal, Avery Schmitz, Alison Main, Manu Raju, Sarah Ferris, Morgan Rimmer, Lauren Fox, Lauren Izso, Michael Rios, Hira Humayun, Maureen Chowdhury, Billy Stockwell, Jim Sciutto, Dana Karni, Adam Cancryn, Tal Shalev, Oren Liebermann, Nick Paton Walsh, Kit Maher, Ted  Barrett, Haley Britzky, Ruba Alhenawi, Jomana Karadsheh, Alejandra Jaramillo, Jeremy Diamond, Thomas Bordeaux, Arlette Saenz, Kaanita Iyer, Jennifer Hauser, Nechirvan Mando, Michael Williams, Francesca Street, Tamar Michaelis, Catherine Nicholls, Donald Judd, Samantha Waldenberg, Sana Noor Haq, Mostafa Salem, Lauren Kent, Jake Tapper, Chris Isidore, Matt Egan, Charlotte Reck, Zachary Cohen, Muhammad Darwish, Kara Fox, Becky Anderson, Kevin Liptak, Bijan  Hosseini, Antoinette Radford, Tim Lister, Zahra Ullah, Adam Pourahmadi, Tala Alrajjal, Logan Schiciano, Clay Voytek, Zahid Mahmood, Isabelle D’Antonio, Mitchell McCluskey, Pierre P Bairin, Eyad Kourdi, Niamh Kennedy, Bijan Hosseini, Lucas Lilieholm, Isaac Yee, Teele Rebane, Karina Tsui, Ally Barnard, Karla Cripps, Esha Mitra, John Liu, Martin Goillandeau, Laura Sharman, Todd Symons, Aleena Fayaz, Deva Lee, Kristie Lu Stout",
+            "title": "Live updates: US Gulf allies fend off attacks as Trump warns Iran of ‘big wave’ of strikes - CNN",
+            "description": "The US State Department urged US citizens leave the Middle East immediately",
+            "url": "https://www.cnn.com/world/live-news/iran-israel-us-attack-03-02-26-intl-hnk",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/ap26061467958092.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2026-03-03T05:27:00Z",
+            "content": "US special envoy Steve Witkoff on Monday described the final, unsuccessful efforts to reach a nuclear agreement with Iran that ultimately collapsed ahead of the United States launching major combat o… [+1531 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Hollywood Reporter"
+            },
+            "author": "James Hibberd",
+            "title": "Jon Stewart Rages Over Iran War: “This Is Trump’s Whole Presidency” - The Hollywood Reporter",
+            "description": "'The Daily Show' host reacts to Operation Epic Fury: \"How quickly the right has gone from 'peace through strength' to 'peace through war.'\"",
+            "url": "http://www.hollywoodreporter.com/tv/tv-news/jon-stewart-iran-war-trump-reaction-1236520088/",
+            "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2026/03/Jon-Stewart.png?crop=103px%2C0px%2C2567px%2C1438px&resize=1440%2C810",
+            "publishedAt": "2026-03-03T04:56:41Z",
+            "content": "Jon Stewart opened The Daily Show on Monday by launching into criticism of President Donald Trump‘s attack on Iran.\r\nDuring his opening monologue (below), the comedy host mocked what the show dubbed … [+3438 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Rebecca Falconer",
+            "title": "U.S. cities step up security amid Iran tensions - Axios",
+            "description": "FBI director Kash Patel instructed federal counterterrorism and intelligence to \"mobilize all assisting security assets needed.\"",
+            "url": "https://www.axios.com/2026/03/02/iran-us-cities-security-fbi-heightened-alert-attacks",
+            "urlToImage": "https://images.axios.com/Bqz0x0G6VntyBvcCDC-qOVPcc80=/0x177:3915x2379/1366x768/2026/03/01/1772405921274.jpeg",
+            "publishedAt": "2026-03-03T04:12:03Z",
+            "content": "U.S. counterterrorism and intelligence teams are on high alert and law enforcement in major cities has bolstered security in the wake of this weekend's strikes on Iran.\r\nThe big picture: FBI director… [+2541 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "Lindsay Whitehurst",
+            "title": "Supreme Court blocks law against schools outing transgender students to their parents in California - AP News",
+            "description": "The Supreme Court is clearing the way for California schools to tell parents if their children identify as transgender without getting the student’s approval, granting an emergency appeal from a conservative legal group. The Monday order blocks for now a stat…",
+            "url": "https://apnews.com/article/supreme-court-transgender-students-california-cca311ae39d267f31c1392a0bcf780cd",
+            "urlToImage": "https://dims.apnews.com/dims4/default/3e8c2f4/2147483647/strip/true/crop/6290x4191+115+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F20%2F4b%2Fb3b846620b5cd6c005efcfcf39c8%2F1b8601c6da4a4276aadfacbde2d9764c",
+            "publishedAt": "2026-03-03T03:06:00Z",
+            "content": "WASHINGTON (AP) The Supreme Court cleared the way Monday for California schools to tell parents if their children identify as transgender without getting the students approval, granting an emergency … [+3624 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Cageside Seats"
+            },
+            "author": "Geno Mrosko",
+            "title": "Paul Heyman stomped by Seth Rollins, kidnapped by LA Knight - Cageside Seats",
+            "description": "A wild start to Raw this week!",
+            "url": "https://www.cagesideseats.com/wwe/422184/paul-heyman-stomped-by-seth-rollins-kidnapped-by-la-knight",
+            "urlToImage": "https://platform.cagesideseats.com/wp-content/uploads/sites/54/2026/03/PHSR.png?quality=90&strip=all&crop=0%2C3.1240143821359%2C100%2C93.751971235728&w=1200",
+            "publishedAt": "2026-03-03T01:24:00Z",
+            "content": "Part of the promotion for this weeks episode of Monday Night Raw in Indianapolis centered around Adam Pearce having a chat with Seth Rollins, who returned at Elimination Chamber to help cost Logan Pa… [+750 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "politico",
+                "name": "Politico"
+            },
+            "author": "Jordain Carney",
+            "title": "Josh Hawley says he’ll oppose Iran war powers resolution - Politico",
+            "description": "The Missouri Republican had initially supported restraining President Donald Trump after the January operation in Venezuela.",
+            "url": "https://www.politico.com/live-updates/2026/03/02/congress/josh-hawley-iran-vote-00808149",
+            "urlToImage": "https://www.politico.com/dims4/default/202ebda/2147483647/resize/1200x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F82%2Fe4%2F1d71f0f547bd876ac6311dcf004b%2Fu-s-congress-29588.jpg",
+            "publishedAt": "2026-03-03T01:10:25Z",
+            "content": null
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Nintendo.com"
+            },
+            "author": null,
+            "title": "The Making of the Music of Kirby Air Riders — Part 1 - Nintendo",
+            "description": "Interviewees Masahiro Sakurai (middle) Director of Kirby Air Riders. Worked on the Kirby™ series, Super Smash Bros.™ series, Kid Icarus™: Uprising, and more. Noriyuki Iwadare (right) Composer. Best known works include the Grandia series, LUNAR serie…",
+            "url": "https://www.nintendo.com/us/whatsnew/the-making-of-the-music-of-kirby-air-riders-part-1/",
+            "urlToImage": "https://assets.nintendo.com/image/upload/v1643742733/ncom/global/social-share.jpg",
+            "publishedAt": "2026-03-03T01:03:38Z",
+            "content": "03/02/26Learn more\r\nThe Making of the Music of Kirby Air Riders Part 1\r\nMasahiro Sakurai (middle) Director of Kirby Air Riders. Worked on the Kirby series, Super Smash Bros. series, Kid Icarus: Upris… [+25208 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "NBCSports.com"
+            },
+            "author": "Mike Florio",
+            "title": "Roc Nation: Bad Bunny Super Bowl halftime had 4.157 billion views in 24 hours - NBC Sports",
+            "description": "It's an all-time record for the halftime show.",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/roc-nation-bad-bunny-super-bowl-halftime-had-4-157-billion-views-in-24-hours",
+            "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/1dafbf4/2147483647/strip/true/crop/3600x2025+0+203/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2F60%2Fce5224ab46189850bded5351e71f%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2262752932",
+            "publishedAt": "2026-03-03T00:25:20Z",
+            "content": "Bad Bunny was very good for NFL business.\r\nAccording to Roc Nation, which produced the Super Bowl halftime show, the Super Bowl LX performance featuring Bad Bunny generated 4.157 billion worldwide vi… [+396 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Gwhatchet.com"
+            },
+            "author": "Elijah Edwards",
+            "title": "GW sold Virginia campus for $427 million to Amazon for data center development - The GW Hatchet",
+            "description": "The deal transfers all of GW’s roughly 122 acres of property in Loudoun County, Virginia, to ADS for $427,299,350 — roughly $3.5 million an acre — according to real estate records.",
+            "url": "https://gwhatchet.com/2026/03/02/gw-sold-virginia-campus-for-427-million-to-amazon-for-data-center-development/",
+            "urlToImage": "https://gwhatchet.com/wp-content/uploads/2026/02/022726_AC_GWVirginiaCampus_061.jpg",
+            "publishedAt": "2026-03-03T00:14:43Z",
+            "content": "The Hatchet is celebrating its 120th birthday\r\nDONATE TODAY"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "MMA Fighting"
+            },
+            "author": "MMA Fighting Newswire",
+            "title": "Arman Tsarukyan breaks his silence after RAF 6 brawl with Georgio Poullas: ‘This is not my fault’ - MMA Fighting",
+            "description": "Arman Tsarukayn doesn’t expect UFC to punish him for his brawl with Georgio Poullas in RAF",
+            "url": "https://www.mmafighting.com/ufc/474602/arman-tsarukyan-breaks-silence-after-raf-6-brawl-with-georgio-poullas-this-is-not-my-fault",
+            "urlToImage": "https://platform.mmafighting.com/wp-content/uploads/sites/109/2026/03/DSC07464.jpg?quality=90&strip=all&crop=0%2C9.7021002628723%2C100%2C74.120995244728&w=1200",
+            "publishedAt": "2026-03-02T23:05:10Z",
+            "content": "Arman Tsarukyan says hes not to blame for the brawl that erupted after he punched Georgio Poullas just a split second after their wrestling match ended at RAF 6 this past Saturday night.\r\nThe ugly sc… [+5063 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Colorado.gov"
+            },
+            "author": null,
+            "title": "Colorado public health officials confirm measles case, release locations for potential exposures in Broomfield and Westminster - Colorado Department of Public Health and Environment (.gov)",
+            "description": "The individual is the second case of measles at Broomfield High School. Neither of the students had received the measles, mumps, and rubella (MMR) vaccine.",
+            "url": "https://cdphe.colorado.gov/press-release/colorado-public-health-officials-confirm-measles-case-Broomfield-Westminster",
+            "urlToImage": null,
+            "publishedAt": "2026-03-02T22:54:06Z",
+            "content": "Denver (March 2, 2026) The Colorado Department of Public Health and Environment and Adams County Health Department have confirmed a case of measles in an Adams County resident and are notifying membe… [+2570 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "The Action Network"
+            },
+            "author": "Ryan Minion",
+            "title": "Iowa State vs Arizona Prediction, Time, Pick, Odds — 3/2 - Action Network",
+            "description": "Read for Iowa State vs. Arizona predictions, picks and odds for their college basketball game on Monday, March 2.",
+            "url": "https://www.actionnetwork.com/ncaab/iowa-state-cyclones-vs-arizona-wildcats-predictions-picks-odds-college-basketball-monday-march-2",
+            "urlToImage": "https://images.actionnetwork.com/blog/2026/03/KoaPeat-Arizona-312026.jpg",
+            "publishedAt": "2026-03-02T22:40:00Z",
+            "content": "The Iowa State Cyclones take on the Arizona Wildcats in Tucson, AZ. Tip-off is set for 9 p.m. ET on ESPN.\r\nArizona is favored by 7.5 points on the spread with a moneyline of -350. The total is set at… [+6473 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Financial Times"
+            },
+            "author": "Jana Tauschinski, Ian Bott, Alan Smith, Jacob Judah, Aditi Bhandari",
+            "title": "The escalating Mideast conflict — in charts - Financial Times",
+            "description": "Since the US and Israel struck Iran, thousands of missiles and drones have been launched across the region",
+            "url": "https://www.ft.com/content/1247fe38-2dc9-4219-b74f-bd755661a525",
+            "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1791172f-b94d-443b-b8fa-cc7a4876c598.jpg?source=next-barrier-page",
+            "publishedAt": "2026-03-02T22:03:20Z",
+            "content": "Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial."
+        },
+        -
+        {
+            -
+            "source": {
+                "id": null,
+                "name": "Barron's"
+            },
+            "author": "Nate Wolf",
+            "title": "AES to Be Taken Private in $33 Billion Deal. Why It’s the S&P 500’s Worst Stock Today. - Barron's",
+            "description": "",
+            "url": "https://www.barrons.com/articles/aes-stock-take-private-acquisition-3d7d72be",
+            "urlToImage": "https://images.barrons.com/im-61994182/social",
+            "publishedAt": "2026-03-02T21:30:00Z",
+            "content": "AES, the utilities and clean energy company, is being taken private by an investor consortium that includes anEQT Groupinfrastructure fund andBlackRock-owned Global Infrastructure Partners."
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "nfl-news",
+                "name": "NFL News"
+            },
+            "author": null,
+            "title": "Lance Zierlein 2026 NFL mock draft 2.0: Two CBs in top five; combine star Sonny Styles cracks top 10 - NFL.com",
+            "description": "In the wake of the NFL Scouting Combine, Lance Zierlein spices up his second mock of the 2026 NFL Draft with three trades. Which two defensive backs come off the board in the top five? Where does athletic freak Sonny Styles land? Check out the full Round",
+            "url": "https://www.nfl.com/news/lance-zierlein-2026-nfl-mock-draft-2-0-two-cbs-in-top-five-combine-star-sonny-styles-cracks-top-10",
+            "urlToImage": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/cbwndytvskutsiz9jvtw",
+            "publishedAt": "2026-03-02T21:11:00Z",
+            "content": null
+        }
+    ]
+
+}
+
+If you want headlines just from a specific source, for example BBC News, we can do that too.
+
+The identifier for BBC News is bbc-news, which we can get by querying the sources endpoint.
+Definition
+
+GET https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=API_KEY
+
+Example request
+
+import requests
+url = ('https://newsapi.org/v2/top-headlines?'
+       'sources=bbc-news&'
+       'apiKey=1322bde53c4146b395c4dd4c6e15189f')
+response = requests.get(url)
+print response.json()
+
+Example response
+{
+
+    "status": "ok",
+    "totalResults": 10,
+    -
+    "articles": [
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Oil and gas prices rise on new Iran threat to Gulf shipping",
+            "description": "Iranian official threatens to \"set fire\" to any ships passing through the crucial Strait of Hormuz.",
+            "url": "https://www.bbc.co.uk/news/articles/cr5lz0vgy52o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ce05/live/fa23a360-15cb-11f1-82b7-79a863688a9c.jpg",
+            "publishedAt": "2026-03-03T09:37:18.4590055Z",
+            "content": "The UK's FTSE 100 index opened down 1.4%, while Germany's Dax index was 1.7% lower.\r\nGas prices rose by a third to around 140p a therm. Higher gas prices could put pressure on household energy bills … [+2903 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "When is the Spring Statement and what might be in it?",
+            "description": "Chancellor Rachel Reeves will give an update on her plans for the UK economy when she gives a statement alongside an economic forecast on 3 March.",
+            "url": "https://www.bbc.co.uk/news/articles/c5yv255914xo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c14c/live/d90dcea0-16d2-11f1-801d-ed3cff6bf876.jpg",
+            "publishedAt": "2026-03-03T07:37:18.1397039Z",
+            "content": "When the Labour government took power in July 2024, it made boosting economic growth its top priority.\r\nHowever, many economists and politicians are concerned that the UK economy is not growing fast … [+1758 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Why did US and Israel attack Iran and how long could the war last?",
+            "description": "Iran has carried out strikes against Israel, across the Gulf and against a British base in Cyprus in retaliation.",
+            "url": "https://www.bbc.co.uk/news/articles/cx2dyz6p3weo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/eb4d/live/57511b80-163f-11f1-9120-a910fc22c6ac.jpg",
+            "publishedAt": "2026-03-03T07:22:23.9502208Z",
+            "content": "On Saturday, Trump said the attacks on Iran would \"continue, uninterrupted throughout the week or as long as necessary\", but has since suggested a longer time frame. \r\nThe US president told the New Y… [+1987 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Bill and Hillary Clinton's testimony about Jeffrey Epstein released",
+            "description": "The newly released videos show Bill and Hillary Clinton sitting through separate depositions about Jeffrey Epstein.",
+            "url": "https://www.bbc.co.uk/news/articles/c20zg7prz12o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/adff/live/098b0fd0-1696-11f1-801d-ed3cff6bf876.jpg",
+            "publishedAt": "2026-03-03T06:22:26.6804959Z",
+            "content": "Several hours into the hearing, Republican Lauren Boebert brought up the issue of \"Pizzagate\" - a debunked conspiracy theory that a paedophilia ring linked to Hillary Clinton's inner circle was opera… [+1310 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Starmer at odds with Trump in biggest disagreement yet",
+            "description": "The prime minister told MPs that the government \"does not believe in regime change from the skies\".",
+            "url": "https://www.bbc.co.uk/news/articles/cy4wgpdllleo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/bd85/live/6aff0250-16a8-11f1-b048-c9424b2cf5fd.jpg",
+            "publishedAt": "2026-03-03T05:37:17.1237677Z",
+            "content": "Sir Keir Starmer took questions from MPs for around two-and-a-half hours, spelling out that he thought the American and Israeli actions were not right and implying there were not lawful either - but … [+1455 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "'Misleading' school talks compared student loans to £30 phone contracts",
+            "description": "Graduates hired to deliver the presentations a decade ago were told to avoid using words like \"debt\".",
+            "url": "https://www.bbc.co.uk/news/articles/cy5706ep1l3o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8da7/live/089a9a50-165f-11f1-b048-c9424b2cf5fd.png",
+            "publishedAt": "2026-03-03T05:07:26.0905488Z",
+            "content": "Ed said he has struggled to afford his student loan repayments since moving to Australia in 2018. Still, he feels \"lucky\" to have gone to university before Plan 2 loans were introduced.\r\n\"I feel like… [+1432 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "'I've given up on hospitality. The £15,000 pay isn't worth the stress'",
+            "description": "People in their 20s and 30s tell the BBC how they feel about their finances ahead of the chancellor's Spring Statement.",
+            "url": "https://www.bbc.co.uk/news/articles/c20lz7rkqv4o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ded2/live/591d37b0-1639-11f1-801d-ed3cff6bf876.jpg",
+            "publishedAt": "2026-03-03T04:07:22.9091573Z",
+            "content": "Susan Nasser works as a hostess, welcoming shoppers at the luxury Bicester Village outlet shopping centre and helping them find their way around. She is also hired by brands when they have pop-up sho… [+872 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Sir Michael Moritz wants German citizenship over 'hostility' to Jews",
+            "description": "The billionaire says \"anti-semitism is always in the air\".",
+            "url": "https://www.bbc.co.uk/news/articles/c4g2jp6y630o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/509a/live/095ebf70-1303-11f1-bf20-f10c8e9eb926.jpg",
+            "publishedAt": "2026-03-03T02:22:22.5571764Z",
+            "content": "The 71-year-old, who holds both UK and US passports, is the richest Welshman who has ever lived, external, with a wealth built on investments in companies like Yahoo and Google that made him billions… [+1022 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Newspaper headlines: 'Operation epic chaos' and Trump 'very disappointed in Keir'",
+            "description": "The papers are dominated by conflict across the Middle East for the third day in a row.",
+            "url": "https://www.bbc.co.uk/news/articles/crm8lvdw297o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/bc30/live/8e5605e0-1690-11f1-b048-c9424b2cf5fd.png",
+            "publishedAt": "2026-03-03T01:07:20.256572Z",
+            "content": "Image caption, Evacuation proposals are in the process of being drawn up, says the Dai;ly Mirror, after more than 102,000 Britons registered with the Foreign Office in a \"plea for help\". Detailing \"c… [+172 chars]"
+        },
+        -
+        {
+            -
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Brewdog: Bars close and hundreds lose jobs as beer firm sold in £33m deal",
+            "description": "Beverage and cannabis company Tilray acquires the Aberdeenshire brewery, the brand and 11 bars for £33m.",
+            "url": "https://www.bbc.co.uk/news/articles/c05v0p1d0peo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6f44/live/5ad6c300-1643-11f1-9293-5bf16ec577d6.jpg",
+            "publishedAt": "2026-03-02T16:37:22.7447259Z",
+            "content": "Last month, the company halted production of gin and vodka brands at its distillery in Ellon, Aberdeenshire.\r\nBrewdog had announced job cuts across the business in October last year, after posting a … [+983 chars]"
+        }
+    ]
+
+}
