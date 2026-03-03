@@ -13,7 +13,6 @@ class EmbeddingEngine:
         )
 
     def clear_articles(self):
-        # Retrieve all existing document IDs
         existing_docs = self.vector_store.get()
         if existing_docs and existing_docs.get("ids"):
             self.vector_store.delete(ids=existing_docs["ids"])
