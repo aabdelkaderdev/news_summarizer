@@ -5,7 +5,7 @@ A Streamlit-based web application that retrieves news articles on specific topic
 ## Features
 - **Article Retrieval**: Fetches top news articles on user-specified topics via NewsAPI.
 - **Semantic Search Base**: Uses `all-MiniLM-L6-v2` embeddings stored in a Chroma vector database to find the most relevant articles for summarization.
-- **AI Summarization**: Powered by `ChatGroq` (`meta-llama/llama3-8b-8192`) to provide quick Brief (1-2 sentences) or Detailed (paragraph) summaries.
+- **AI Summarization**: Powered by `ChatGroq` (`meta-llama/llama-3.1-8b-instant`) to provide quick Brief (1-2 sentences) or Detailed (paragraph) summaries.
 - **Preference Tracking**: Saves user topics and tracks search history in a local JSON file.
 
 ## Demo

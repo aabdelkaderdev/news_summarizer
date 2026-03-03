@@ -10,7 +10,7 @@ class NewsSummarizer:
         
         self.llm = ChatGroq(
             api_key=self.api_key,
-            model_name="llama3-8b-8192",
+            model_name="llama-3.1-8b-instant",
             temperature=0.3
         )
 
