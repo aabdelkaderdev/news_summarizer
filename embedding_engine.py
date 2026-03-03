@@ -12,7 +12,15 @@ class EmbeddingEngine:
             persist_directory=self.persist_directory
         )
 
-    def add_articles(self, documents):
+    def clear_articles(self):
+        # Retrieve all existing document IDs
+        existing_docs = self.vector_store.get()
+        if existing_docs and existing_docs.get("ids"):
+            self.vector_store.delete(ids=existing_docs["ids"])
+
+    def add_articles(self, documents, clear_first=True):
+        if clear_first:
+            self.clear_articles()
         if documents:
             self.vector_store.add_documents(documents=documents)
 

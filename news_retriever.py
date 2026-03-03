@@ -25,12 +25,14 @@ class NewsRetriever:
         
         articles = data.get("articles", [])
         documents = []
+        seen_titles = set()
         
         for article in articles:
             content = article.get("content") or article.get("description")
             title = article.get("title")
             
-            if content and title and "[Removed]" not in title:
+            if content and title and "[Removed]" not in title and title not in seen_titles:
+                seen_titles.add(title)
                 full_text = f"Title: {title}\n\n{content}"
                 metadata = {
                     "source": article.get("url", ""),
