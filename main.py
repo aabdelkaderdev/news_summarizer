@@ -12,11 +12,11 @@ st.title("News Summarizer Application")
 if "user_manager" not in st.session_state:
     st.session_state.user_manager = UserManager()
 
-news_api_key = st.sidebar.text_input("NewsAPI Key", value=os.environ.get("NEWS_API_KEY", ""), type="password")
-groq_api_key = st.sidebar.text_input("Groq API Key", value=os.environ.get("GROQ_API_KEY", ""), type="password")
+news_api_key = os.environ.get("NEWS_API_KEY")
+groq_api_key = os.environ.get("GROQ_API_KEY")
 
 if not news_api_key or not groq_api_key:
-    st.warning("Please provide both NewsAPI and Groq API keys in the sidebar to continue.")
+    st.error("Missing NEWS_API_KEY or GROQ_API_KEY environment variables. Please set them and restart.")
     st.stop()
 
 @st.cache_resource
