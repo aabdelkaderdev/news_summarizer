@@ -10,7 +10,7 @@ A Streamlit-based web application that retrieves news articles on specific topic
 
 ## Demo
 Try the application live on Streamlit Community Cloud:  
-**🔗 [Streamlit Demo](https://marketing-campaign-app-t2rnqbfx5qqhpvq2fyt9nv.streamlit.app/)**
+**🔗 [Streamlit Demo](https://newssummarizer-e3fjlb2khxehelgbhmltve.streamlit.app/)**
 
 ---
 
